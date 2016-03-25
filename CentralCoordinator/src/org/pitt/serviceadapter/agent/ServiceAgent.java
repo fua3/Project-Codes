@@ -1,0 +1,308 @@
+package org.pitt.serviceadapter.agent;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.lang.reflect.Constructor;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLDecoder;
+import java.security.MessageDigest;
+
+import javax.servlet.ServletException;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+//import org.bjit.serciveadapter.agent.DispatchEvent;
+
+public class ServiceAgent extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private boolean debug = false;
+	private String key = "";
+	private String map_key = "";
+	// Global Encoding
+	private String encode = "";
+	//
+
+	public void init() throws ServletException {
+		
+		debug = Boolean.parseBoolean(getInitParameter("debug"));
+		encode = getInitParameter("encode");
+		boolean encrypt=Boolean.parseBoolean(getInitParameter("encrypt"));
+		/*
+		if(encrypt){
+			String password=md5Encode(getInitParameter("password"));
+			key = "&user=" + getInitParameter("user") + "&password=" +password+ "&encode=" + encode+"&encrypt="+getInitParameter("encrypt");
+		}else{
+			key = "&user=" + getInitParameter("user") + "&password=" + getInitParameter("password") + "&encode=" + encode;
+		}
+		*/
+		map_key = getInitParameter("mapkey");
+		
+	}
+
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// test url
+		if(request.getParameter("testMethod")!=null)
+			testUrlEncode(request, response);
+		
+		String svrUrl = getRealUrl(request);
+		dispatch(request, response, "GET", svrUrl, "");
+	}
+	
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		//  test url
+		//if(request.getParameter("testMethod")!=null)
+			//testUrlEncode(request, response);
+		String data=request.getReader().readLine().toString();
+		data = java.net.URLDecoder.decode(data,"UTF-8");
+		if(debug)
+			System.out.println("post data:" + data);
+		String svrUrl = getRealUrl(request);
+		//String data = readXMLFromRequestBody(request);
+		dispatch(request, response, "POST", svrUrl, data);
+	}
+
+	private void dispatch(HttpServletRequest request,
+			HttpServletResponse response, String method, String urlStr,
+			String postData) throws ServletException, IOException {
+		
+		DispatchListener listener = null;
+		int result = -1;
+		String listenerClass = getInitParameter("Listener");
+		long start = System.currentTimeMillis();
+		if (listenerClass != null) {
+			try {
+				// Examples of listener subclass
+				Class c1 = Class.forName(listenerClass);
+				if (c1 != null) {
+					Constructor constructor = c1.getDeclaredConstructor();
+					listener = (DispatchListener) constructor.newInstance();
+
+					DispatchEvent dispatchEvent = new DispatchEvent(this,
+							request.getRequestURL().toString(), request
+									.getServletPath().substring(1), urlStr,
+							result, start, start, "", request);
+
+					if (!listener.beforeDispatch(dispatchEvent)) {
+						if ("true".equals(debug))
+							System.out.println("Adapter unforwarded" + urlStr);
+						return;
+					}
+				}
+			} catch (ClassNotFoundException e) {
+				result = 0;
+				if ("true".equals(debug))
+					System.out.println("Adapter class" + listenerClass + "not find");
+			} catch (Exception e) {
+
+			}
+		}
+		
+		
+		BufferedInputStream pStream = null;
+		ServletOutputStream out = null;
+		HttpURLConnection conn = null;
+
+		URL url = null;
+		try {
+			url = new URL(urlStr);
+			out = response.getOutputStream();
+			conn = (HttpURLConnection) url.openConnection();
+			conn.setConnectTimeout(10000);
+			conn.setReadTimeout(100000);
+			conn.setRequestMethod(method);
+
+			conn.setDoOutput(true);
+			conn.setDoInput(true);
+			conn.setUseCaches(true);
+			conn.setAllowUserInteraction(false);
+			boolean ismap = false;
+			if(map_key!=null){
+				String[] mapkey=map_key.split(",");
+				for (int i = 0; i < mapkey.length; i++) {
+					if (urlStr.indexOf(mapkey[i]) != -1)
+						ismap = true;
+				}
+			}
+//			if (ismap)
+//				response.setContentType(conn.getContentType());
+//			else
+//				response.setContentType("text/xml;charset=GBK");
+			response.setContentType(conn.getContentType()+";charset=GBK");
+			if (method.equalsIgnoreCase("post")) {
+				OutputStreamWriter wr = null;
+				try {
+					wr = new OutputStreamWriter(conn.getOutputStream(), "utf-8");
+					wr.write(postData.toCharArray());
+				} catch (Exception ex) {
+					if (wr != null)
+						wr.close();
+				} finally {
+					if (wr != null) {
+						wr.flush();
+						wr.close();
+					}
+				}
+			}
+			
+			ByteArrayOutputStream outStream = new ByteArrayOutputStream(); 
+			
+			byte btBuffer[] = new byte[8192];
+			pStream = new BufferedInputStream(conn.getInputStream());
+			int length = -1;
+			while ((length = pStream.read(btBuffer)) != -1){
+				out.write(btBuffer, 0, length);
+				outStream.write(btBuffer, 0, length);	
+			}
+			String str = new String(outStream.toByteArray(),"GBK");  
+			if(str!=null&&!str.equals("")){
+				int coun = str.indexOf("Error");
+				if(coun!=-1){
+					result = 0;
+				}
+			}
+			
+			btBuffer.clone();
+		} catch (Exception ex) {
+			result = 0;
+			if (debug) {
+				System.out.println("Adapter to access a remote service error！");
+				System.out.println("service:"+ urlStr);
+				System.out.println(ex.getMessage());
+			}
+		} finally {
+			if (out != null) {
+				out.flush();
+				out.close();
+			}
+			if (pStream != null)
+				pStream.close();
+			if (conn != null)
+				conn.disconnect();
+		}
+		if (listener != null){
+			try {
+		        DispatchEvent dispatchEvent = new DispatchEvent(this, 
+		          request.getRequestURL().toString(), 
+		          request.getServletPath().substring(1), urlStr, result, start, 
+		          System.currentTimeMillis(), "", request);
+		        listener.afterDispatch(dispatchEvent);
+		      }catch(Exception ex){
+		    	  
+		      }
+		}
+	}
+
+	// System.out.println("1:"+new String(xmlstr.getBytes("ISO-8859-1"),"GBK"));
+	private String getRealUrl(HttpServletRequest request)
+			throws ServletException, IOException {
+		String servletPath = request.getServletPath();
+		String serviceAgent = servletPath.substring(1);
+		String queryString = request.getQueryString();		
+		if (queryString == null || "".equals(queryString.trim())) {
+			queryString = key;
+		} else {
+			queryString += "&" + key;
+		}
+
+		String serviceUrl = getInitParameter(serviceAgent);
+
+		if ("".equalsIgnoreCase(serviceUrl)
+				|| "null".equalsIgnoreCase(serviceUrl) || serviceUrl == null) {
+			String uri = request.getRequestURI();
+
+			String serviceAgentTmp = servletPath.substring(1) + "/*";
+			String serviceEnd = uri.substring(uri.indexOf(servletPath) + 4);
+			serviceUrl = getInitParameter(serviceAgentTmp);
+			if (serviceUrl == null)
+				System.out.println("Initialization parameters" + serviceAgent + "or"+ serviceAgentTmp + "not find");
+			else
+				serviceUrl = serviceUrl.substring(0, serviceUrl.length() - 2)
+						+ serviceEnd;
+		}
+
+		String url = serviceUrl+ "?" + queryString;
+		/*
+		if(encode!=null)
+			if(!(servletPath.substring(1, servletPath.length())).equals("GIMSNEW")&&!(servletPath.substring(1,servletPath.length())).equals("SpatialSearch")&&!(servletPath.substring(1,servletPath.length())).equals("GovEMap/wfs")){
+				url=URLDecoder.decode(url,encode);
+			}
+			
+		url=url.replaceAll("<", "%3C").replaceAll(">", "%3E").replaceAll(" ", "%20");
+		*/
+		
+		if(debug)
+			System.out.println("redirect to " + url);
+		return url;
+	}
+	
+	private String readXMLFromRequestBody(HttpServletRequest request) {
+		StringBuffer strBuf = new StringBuffer();
+		try {
+			BufferedReader reader = request.getReader();
+			String line = null;
+			while ((line = reader.readLine()) != null)
+				strBuf.append(line).append("\n");
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		String strBuf_str=strBuf.toString();
+		if(debug)
+			System.out.println("post data:" + strBuf_str);
+		return strBuf_str;
+	} 
+	
+	private void testUrlEncode(HttpServletRequest req,HttpServletResponse res){		
+		try {
+			String returnStr=new String("Parameter："+URLDecoder.decode(req.getQueryString(),req.getParameter("encode")));
+			res.setContentType("text;charset="+req.getParameter("encode"));
+			res.getOutputStream().write(returnStr.getBytes());
+			System.out.println(returnStr);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+    /**
+     * MD5
+     * @param sourceString
+     * @return
+     * @since 1.1
+     */
+    public static String md5Encode(String sourceString) {
+        String resultString = sourceString;
+        try {
+            resultString = new String(sourceString);
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            resultString = byte2hexString(md.digest(resultString.getBytes()));
+        } catch (Exception ex) {
+        }
+        return resultString;
+    }
+    /**
+     * MD5 encoding
+     * @param bytes
+     * @return
+     * @since 1.1
+     */
+    public static final String byte2hexString(byte[] bytes) {
+        StringBuffer buf = new StringBuffer(bytes.length * 2);
+        for (int i = 0; i < bytes.length; i++) {
+            if (((int) bytes[i] & 0xff) < 0x10) {
+                buf.append("0");
+            }
+            buf.append(Long.toString((int) bytes[i] & 0xff, 16));
+        }
+        return buf.toString();
+    }
+}

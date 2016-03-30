@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//org/pitt/server/UDPMulticastSocketClient.java=UTF-8
+encoding//org/pitt/server/UDPMulticastSocketServer.java=UTF-8
+encoding//org/pitt/server/UdpUnicastSocketClient.java=UTF-8
+encoding//org/pitt/server/UdpUnicastSocketServer.java=UTF-8
+encoding/<project>=US-ASCII

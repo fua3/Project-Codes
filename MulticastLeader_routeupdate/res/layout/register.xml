@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00A9E7"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@+string/welcometoregister"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@+string/registerusername" />
+
+            <EditText
+                android:id="@+id/usernameRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@+string/uusername" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@+string/registerpassword" />
+
+            <EditText
+                android:id="@+id/passwordRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@+string/upassword" />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@+string/registeremail" />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@+string/uemail" />
+        </TableRow>
+
+
+        <TableRow >
+
+            <TextView />
+
+            <LinearLayout >
+                <Button
+                    android:id="@+id/Register"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@+string/userregister" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

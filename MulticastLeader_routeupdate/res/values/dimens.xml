@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- for route analysis -->
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+   <!-- Color -->
+  	<drawable name="darkgray">#808080</drawable>
+  	<drawable name="white">#FFFFFF</drawable>
+ 	<drawable name="blue">#0000FF</drawable>
+ 	<drawable name="lightred">#90FF0000</drawable>
+ 	<drawable name="lightgray">#90505050</drawable>
+
+</resources>

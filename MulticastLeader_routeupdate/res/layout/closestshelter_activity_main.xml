@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#00A9E7"
+  android:orientation="vertical">
+  
+ <RelativeLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingRight="10dp">
+  <TextView
+    android:id="@+id/followernumlabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="100dp"
+    android:padding="10dp"
+    android:textSize="16sp">
+  </TextView>
+  <EditText
+    android:id="@+id/followernum"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="50dp"
+    android:maxWidth="80dp"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:layout_marginLeft="100dp"
+    android:inputType="text">
+  </EditText> 
+   <Button
+      android:id="@+id/btn_shelter_sure"
+      android:text="@string/btn_shelter_sure"
+      android:minWidth="80dp"
+      android:layout_marginLeft="150dp"
+      android:layout_height="wrap_content" 
+      android:layout_width="wrap_content"/>
+      
+</RelativeLayout>
+<RelativeLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingRight="10dp">
+  <TextView 
+        android:id="@+id/directionsLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   />
+</RelativeLayout>
+  <!-- MapView layout and initial basemap and extent. -->
+
+    <com.esri.android.map.MapView
+  		android:id="@+id/map"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		initExtent = "-8901547 4930180 -8894382 4935163">
+  	</com.esri.android.map.MapView>
+</LinearLayout>

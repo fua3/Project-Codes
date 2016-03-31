@@ -1,0 +1,135 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "globalIdFieldName": "",
+ "geometryType": "esriGeometryPoint",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  }
+ ],
+ "features": [
+  {
+   "geometry": {
+    "x": 100.34719999999999,
+    "y": -0.877049999999997
+   },
+   "attributes": {
+    "OBJECTID": 72
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.35264999999998,
+    "y": -0.89458000000001903
+   },
+   "attributes": {
+    "OBJECTID": 77
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34397999999999,
+    "y": -0.88828000000000884
+   },
+   "attributes": {
+    "OBJECTID": 85
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34881999999999,
+    "y": -0.90001000000000886
+   },
+   "attributes": {
+    "OBJECTID": 18
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34994999999998,
+    "y": -0.89535000000000764
+   },
+   "attributes": {
+    "OBJECTID": 19
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.35081000000002,
+    "y": -0.89307999999999765
+   },
+   "attributes": {
+    "OBJECTID": 37
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.35122999999999,
+    "y": -0.8982899999999745
+   },
+   "attributes": {
+    "OBJECTID": 45
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34710000000001,
+    "y": -0.89636000000001559
+   },
+   "attributes": {
+    "OBJECTID": 52
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.35127,
+    "y": -0.88582999999999856
+   },
+   "attributes": {
+    "OBJECTID": 57
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.35142999999999,
+    "y": -0.8871300000000133
+   },
+   "attributes": {
+    "OBJECTID": 60
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34192999999999,
+    "y": -0.87585000000001401
+   },
+   "attributes": {
+    "OBJECTID": 39
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.33601265300001,
+    "y": -0.86543006800002331
+   },
+   "attributes": {
+    "OBJECTID": 40
+   }
+  },
+  {
+   "geometry": {
+    "x": 100.34939567100002,
+    "y": -0.88021588100002646
+   },
+   "attributes": {
+    "OBJECTID": 79
+   }
+  }
+ ]
+}

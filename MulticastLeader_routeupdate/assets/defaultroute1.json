@@ -1,0 +1,313 @@
+{
+ "messages": [
+  {
+   "type": 50,
+   "description": "The start time was ignored because the impedance attribute is not time-based."
+  }
+ ],
+ "routes": {
+  "hasM": true,
+  "fieldAliases": {
+   "ObjectID": "ObjectID",
+   "Name": "Name",
+   "FirstStopID": "FirstStopID",
+   "LastStopID": "LastStopID",
+   "StopCount": "StopCount",
+   "Total_Length": "Total_Length",
+   "Shape_Length": "Shape_Length"
+  },
+  "geometryType": "esriGeometryPolyline",
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  },
+  "features": [
+   {
+    "attributes": {
+     "ObjectID": 1,
+     "Name": "Location 1 - Location 2",
+     "FirstStopID": 1,
+     "LastStopID": 2,
+     "StopCount": 2,
+     "Total_Length": 744.81417175137983,
+     "Shape_Length": 979.61409455489945
+    },
+    "geometry": {
+     "hasM": true,
+     "paths": [
+      [
+       [
+        -8898957.1090999991,
+        4932962.5691,
+        0
+       ],
+       [
+        -8898954.7391999997,
+        4932985.2839000002,
+        17.334526118206977
+       ],
+       [
+        -8898914.8275000006,
+        4932981.4570999965,
+        47.888069166755677
+       ],
+       [
+        -8898875.2586000003,
+        4932977.3452000022,
+        78.193135690999028
+       ],
+       [
+        -8898836.0353999995,
+        4932973.0364999995,
+        108.25512629067897
+       ],
+       [
+        -8898797.5171000008,
+        4932968.9235000014,
+        137.77122895998954
+       ],
+       [
+        -8898758.2969000004,
+        4932964.7399000004,
+        167.8229894193411
+       ],
+       [
+        -8898728.5054000001,
+        4932961.5518999994,
+        190.65069618787766
+       ],
+       [
+        -8898691.5417999998,
+        4932957.6005000025,
+        218.9714027567625
+       ],
+       [
+        -8898661.5533000007,
+        4932954.5302999988,
+        241.94180071909429
+       ],
+       [
+        -8898658.7412999999,
+        4932974.3606999964,
+        257.1462787578821
+       ],
+       [
+        -8898653.1199999992,
+        4933014.1213999987,
+        287.62860281543732
+       ],
+       [
+        -8898647.4986000005,
+        4933053.8828999996,
+        318.11148913912774
+       ],
+       [
+        -8898641.8269999996,
+        4933093.6453000009,
+        348.60404266388417
+       ],
+       [
+        -8898636.2054999992,
+        4933133.4068000019,
+        379.0867322854042
+       ],
+       [
+        -8898630.5840000007,
+        4933173.1683999971,
+        409.56931348576546
+       ],
+       [
+        -8898624.9623000007,
+        4933212.9301000014,
+        440.05191483311654
+       ],
+       [
+        -8898619.4912999999,
+        4933252.7132000029,
+        470.52334526255129
+       ],
+       [
+        -8898614.0714999996,
+        4933292.5459000021,
+        501.02248500998019
+       ],
+       [
+        -8898573.6920999996,
+        4933288.063500002,
+        531.99788488795753
+       ],
+       [
+        -8898540.4099000003,
+        4933283.3295999989,
+        557.58693430604933
+       ],
+       [
+        -8898501.0035999995,
+        4933277.7308000028,
+        587.91424747769838
+       ],
+       [
+        -8898466.8642999995,
+        4933272.7163999975,
+        614.19850122292041
+       ],
+       [
+        -8898461.0407999996,
+        4933312.4333000034,
+        644.67813924202915
+       ],
+       [
+        -8898455.5186000001,
+        4933352.2053999975,
+        675.14351184997554
+       ],
+       [
+        -8898450.2151999995,
+        4933390.704400003,
+        704.62615451109411
+       ],
+       [
+        -8898447.7493999992,
+        4933408.3677000031,
+        718.15846765277388
+       ],
+       [
+        -8898442.5968999993,
+        4933443.0869999975,
+        744.81417175137994
+       ]
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "directions": [
+  {
+   "routeId": 1,
+   "routeName": "Location 1 - Location 2",
+   "hasM": true,
+   "summary": {
+    "totalLength": 0.46281009597247297,
+    "totalTime": 0,
+    "totalDriveTime": 0,
+    "envelope": {
+     "xmin": -8898957.1090226509,
+     "ymin": 4932954.5302995499,
+     "xmax": -8898442.5961703211,
+     "ymax": 4933443.0870848335,
+     "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+     }
+    }
+   },
+   "features": [
+    {
+     "attributes": {
+      "length": 0,
+      "time": 0,
+      "text": "Start at Location 1",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTDepart"
+     },
+     "compressedGeometry": "+0+1+2+1-8ficc+4mhb3+0+0|+9+0+0"
+    },
+    {
+     "attributes": {
+      "length": 0.010771268862322448,
+      "time": 0,
+      "text": "Go north on S Pacific Ave toward Harriet St",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTStraight"
+     },
+     "compressedGeometry": "+0+1+2+1-8ficc+4mhb3+2+m|+9+0+4s",
+     "strings": [
+      {
+       "string": "S Pacific Ave",
+       "stringType": "esriDSTStreetName"
+      },
+      {
+       "string": "Harriet St",
+       "stringType": "esriDSTCrossStreet"
+      }
+     ]
+    },
+    {
+     "attributes": {
+      "length": 0.13956570411344182,
+      "time": 0,
+      "text": "Turn right on Harriet St",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTTurnRight"
+     },
+     "compressedGeometry": "+0+1+2+1-8fica+4mhbp+95-u|+9+4s+1v5",
+     "strings": [
+      {
+       "string": "Harriet St",
+       "stringType": "esriDSTStreetName"
+      }
+     ]
+    },
+    {
+     "attributes": {
+      "length": 0.16098667413823539,
+      "time": 0,
+      "text": "Turn left on S Aiken Ave",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTTurnLeft"
+     },
+     "compressedGeometry": "+0+1+2+1-8fi35+4mhar+1g+ai|+9+241+28s",
+     "strings": [
+      {
+       "string": "S Aiken Ave",
+       "stringType": "esriDSTStreetName"
+      }
+     ]
+    },
+    {
+     "attributes": {
+      "length": 0.070324927897285505,
+      "time": 0,
+      "text": "Turn right on Friendship Ave",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTTurnRight"
+     },
+     "compressedGeometry": "+0+1+2+1-8fi1l+4mhld+4j-k|+9+4ct+vr",
+     "strings": [
+      {
+       "string": "Friendship Ave",
+       "stringType": "esriDSTStreetName"
+      }
+     ]
+    },
+    {
+     "attributes": {
+      "length": 0.081161520961187783,
+      "time": 0,
+      "text": "Turn left on S Graham St",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTTurnLeft"
+     },
+     "compressedGeometry": "+0+1+2+1-8fht2+4mhkp+o+5a|+9+5co+14n",
+     "strings": [
+      {
+       "string": "S Graham St",
+       "stringType": "esriDSTStreetName"
+      }
+     ]
+    },
+    {
+     "attributes": {
+      "length": 0,
+      "time": 0,
+      "text": "Finish at Location 2, on the right",
+      "ETA": -2209161600000,
+      "maneuverType": "esriDMTStop"
+     },
+     "compressedGeometry": "+0+1+2+1-8fhsa+4mhq3+0+0|+9+6hf+0"
+    }
+   ]
+  }
+ ]
+}

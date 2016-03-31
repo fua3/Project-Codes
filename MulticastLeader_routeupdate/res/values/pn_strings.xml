@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pnapp_name">CDMPN4GIS</string>
+    <string name="pnhello">Hello PITT!</string>
+    <string name="pnsettings">PN Settings</string>
+    <string name="intomaps">Goto Maps</string>
+</resources>

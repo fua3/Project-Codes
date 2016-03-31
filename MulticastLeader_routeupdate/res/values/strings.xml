@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EvacuationMap_Leader</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="btn_shelter_sure">GO</string>
+    
+    <!--main form start -->
+    <string name="label_imagebutton11">Risk Area</string>
+    
+    <!--main form end -->
+    
+<!--barrier report start -->
+    <string name="ge_app_name">GeometryEditor</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="saved">New feature saved</string>
+    <string name="action_add">Add Feature</string>
+    <string name="action_save">Save</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_delete">Delete Point</string>
+    <string name="action_undo">Undo</string>
+    <string name="title_add_point">Adding a Point</string>
+    <string name="title_add_polyline">Adding a Polyline</string>
+    <string name="title_add_polygon">Adding a Polygon</string>
+    <string name="title_feature_type">Select feature type</string>
+    <string name="title_confirm_discard">Discard new feature</string>
+    <string name="title_edit_failed">Saved failed</string>
+    <string name="msg_confirm_discard">Are you sure you want to discard the feature you were adding?</string>
+<!-- barrier report end-->
+
+<!-- attribute editor start -->
+    <string name="hello">Shelter Attribute Editor</string>
+    <string name="ae_app_name">Attribute Editor</string>
+    <string name="btn_edit_apply">Apply</string>
+    <string name="btn_edit_discard">Discard</string>
+
+<!-- attribute editor end -->
+
+<!-- risk region layer show start -->
+	<string name="rr_app_name">Risk Region</string>
+    <string name="basemap_url">http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer</string>
+    <string name="dynamiclayer_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/MapServer</string>
+    <string name="riskregionfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/0</string>
+    <string name="shelterfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/1</string>
+    <string name="communityfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/3</string>
+<!-- risk region layer show end -->
+
+<!-- risk facilities layer show start -->
+	<string name="fs_app_name">Facilities</string>
+    <string name="fs_basemap_url">http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer</string>
+    <string name="fs_dynamiclayer_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/MapServer</string>
+    <string name="fs_riskregionfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/0</string>
+    <string name="fs_shelterfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/1</string>
+    <string name="fs_communityfeatureserver_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACBarriers/FeatureServer/3</string>
+<!-- risk facilities layer show end -->
+
+
+    <string name="cf_app_name">ClosestFacilities</string>
+    
+     <string name="push_url">http://136.142.186.102:8081/notification.do?action=send</string>  
+     <string name="coordinator_url">http://136.142.186.102:8081/</string>  
+     <string name="xmpphost">136.142.186.102</string> 
+     <string name="xmppport">8093</string>  
+       
+    
+<!-- service area service start-->
+    <string name="sa_app_name">Service Area</string>
+    <string name="naservice_url">http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/Padang_NAN/NAServer/Service%20Area</string>
+    <string name="sa_null_response">Service Area Task did not return a result!</string>
+    <string name="sa_route_label">Press and hold map to route to that point\nClick segments for more information</string>
+    <string name="text_break1">Break1</string>
+    <string name="text_break2">Break2</string>
+    <string name="text_break3">Break3</string>
+    <string name="edittext1">10.0</string>
+    <string name="edittext2">20.0</string>
+    <string name="edittext3">30.0</string>
+    <string name="button_text">Clear</string>
+    <string name="txtpush">push</string>
+      
+ <!-- service area service end-->
+ 
+  <!-- offline base map start-->
+     <string name="local_tpk">kelurahan_102100.tpk</string>
+     <string name="offline_dir">ArcGIS</string>
+     <string name="defaultroutetask">Default Evacuation Route</string>
+     <string name="defaultroute">11251,14827,11594,10977,10071,9654,18144,8672,18272,11829;235</string>
+     <string name="arcgis_server_url">http://136.142.186.102:6080/arcgis/rest/services/Kelurahan/</string>  
+     <string name="coordinator_server_url">http://136.142.186.102:8080/keyvaluestore.do?action=</string> 
+     <string name="coordinator_ip">136.142.186.102</string>
+ <!-- offline base map start-->
+ 
+ 
+ <!-- leader broadcast start -->
+ <string name="leaderbraodcast">LeaderBroadcast</string>
+  <string name="mapdownload">Map Download</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">LeaderUDPBraodcast</string>
+    <string name="leaderactor">As a leader, send info to followers</string>
+    <string name="followeractor">As a follower, get info from PI</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+<!-- leader broadcast end --> 
+
+	<string name="userrole">Role:</string>
+    <string-array name="spinnerrole"> 
+     	<item>Leader</item>  
+     	<item>Follower</item>    
+    </string-array>
+    <string name="userregion">Region:</string>
+    
+   <string-array name="spinnerregion">
+        <item>Airtawar Timur</item> 
+     	<item>Bungo Pasang</item>  
+     	<item>Koto Pulai</item>  
+      	<item>Parupuk Tabing</item> 
+     	<item>Pasir Nan Tigo</item>     
+    </string-array>
+
+</resources>

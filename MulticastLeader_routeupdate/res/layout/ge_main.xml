@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:background="#000000"
+    android:orientation="vertical" >
+    <!--  
+  <TextView
+    android:id="@+id/pushinfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="50dp"
+    android:padding="10dp"
+    android:textSize="16sp">
+  </TextView>-->
+
+<!-- 
+ <RelativeLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:paddingRight="10dp">   
+  <TextView
+    android:id="@+id/followernumlabel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxWidth="100dp"
+    android:padding="10dp"
+    android:text="Number:">
+  </TextView>
+  <EditText
+    android:id="@+id/followernum"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="50dp"
+    android:maxWidth="80dp"
+    android:padding="10dp"
+    android:layout_marginLeft="80dp"
+    android:inputType="text">
+  </EditText> 
+  <TextView
+        android:id="@+id/multicastlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:padding="10dp"
+        android:text="BC:" />
+   <Button
+        android:id="@+id/buttonsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ 		android:layout_marginLeft="180dp"
+        android:onClick="onClick"
+        android:text="Send" />
+    <Button
+        android:id="@+id/buttonstop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginLeft="250dp"
+        android:onClick="onClick"
+        android:text="Stop" />
+</RelativeLayout>
+ -->
+ 
+    <TextView
+        android:id="@+id/sendinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   <TextView 
+        android:id="@+id/directionsLabel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+  <com.esri.android.map.MapView
+  		android:id="@+id/map"
+  		android:layout_width="fill_parent"
+  		android:layout_height="fill_parent"
+  		initExtent = "11169182.095	-96998.489	11169893.699	-96026.543">
+  </com.esri.android.map.MapView>
+
+</LinearLayout>

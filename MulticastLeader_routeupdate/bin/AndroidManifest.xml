@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.pitt.cdm.arcgis.android.maps" android:versionCode="20150320"
+	android:versionName="1.0.0">
+	<application android:icon="@drawable/tsunami01" android:label="@string/app_name">
+		<activity android:name=".MainActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	<activity
+      		android:name="com.pitt.cdm.arcgis.android.maps.BasemapsActivity"
+      		android:label="@string/basemaps">
+    </activity>   
+   <activity
+            android:name="com.pitt.cdm.arcgis.android.geometryeditor.GeometryEditorActivity"
+            android:label="@string/barriersreport">                             
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.attributeeditor.AttributeEditorActivity"
+            android:label="@string/attributeeditor">                             
+    </activity>
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.ClosestFacilitiesActivity"
+            android:label="@string/closestfacility" >
+    </activity>  
+    
+   <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.ClosestShelterActivity"
+            android:label="@string/closestshelter" >
+    </activity> 
+    
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.RoutinganalysisActivity"
+            android:label="@string/routetask">
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.RoutingtoshelterActivity"
+            android:label="@string/routetosheltertask">
+    </activity>
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.RoutingtoshelterupdateActivity"
+            android:label="@string/routetosheltertask">
+    </activity>
+     <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.RoutingdefaultActivity"
+            android:label="@string/defaultroutetask">
+    </activity>
+     <activity
+            android:name="com.pitt.cdm.arcgis.android.networkanalysis.ServiceAreaActivity"
+            android:label="@string/servicearea">
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.featurelayer.ShowriskLayerActivity"
+            android:label="@string/riskregion">
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.arcgis.android.featurelayer.ShowfacilitiesLayerActivity"
+            android:label="@string/facilitiesservice">
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.socket.broadcast.LeaderBroadcastActivity"
+            android:label="@string/leaderbraodcast">
+    </activity>
+    
+    <activity
+            android:name="com.pitt.cdm.offlinemapupdate.MapDownloadActivity"
+            android:label="@string/mapdownload">
+    </activity>
+    
+        <activity android:name="com.pitt.cdm.arcgis.android.networkanalysis.RoutingShowDirections" />
+		
+		<!--
+			<meta-data android:name="ANDROIDPN_API_KEY"
+			android:value="1234567890" />
+		-->
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+  	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+ 	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest> 

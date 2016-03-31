@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+        <style name="dialogText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    
+    <color name="blue">#00A9E7</color>
+   
+    <style name="cust_dialog" parent="@android:style/Theme.Dialog">
+        	<item name="android:background">@color/blue</item>
+        	 <item name="android:textColor">#ffffff</item>
+    		<item name="android:windowTitleStyle">@style/dialog_title_style</item>
+    </style>
+
+    <style name="dialog_title_style" parent="android:Widget.TextView">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+      <!-- spinner -->
+    <style name="spinner_style">
+    	<item name="android:background">@drawable/shape</item>
+    	<item name="android:paddingLeft">5dip</item>
+    </style>
+
+</resources>

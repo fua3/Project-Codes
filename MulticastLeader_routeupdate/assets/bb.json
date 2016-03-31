@@ -1,0 +1,3263 @@
+{
+"features":
+[ID1;,[[[27.362,87.2095]]],[
+[Organisation:Radio
+Arun Sandesh],[[Title:Sankhuwasabha - Radio Arun
+Sandesh],[Frequency :[100.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.362],[Longitude:87.2095],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]0],
+[ID2;,[[[26.6401,85.8005]]],
+[[Organisation:Radio
+Appan Mithila],[[Title:Mahottari, Jaleswor Na. Pa. 5 - Radio Appan
+Mithila],[Frequency :[94.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6401],[Longitude:85.8005],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]1], 
+[ID3;,[[[27.9726,84.386]]], 
+[[Organisation:Radio
+Bandipur],[[Title:Tanahu, Dumrebazar, Bandipur-1 - Radio
+Bandipur],[Frequency :[88.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9726],[Longitude:84.386],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]2],
+[ID4;,[[[28.0162,81.6696]]],
+ [Organisation:Radio
+Bageshwari],[[Title:Banke, Phoolketra 7, Nepalgunj - Radio
+Bageshwari],[Frequency :[94.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.0162],[Longitude:81.6696],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]3],
+[ID5;,[[[27.7662,85.7483]]],[],[],1,[[Organisation:Radio
+Avarv],[[Title:Sindhupalchok - Radio Avarv],[Frequency
+:[89.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7662],[Longitude:85.7483],[Location
+Source:infoasaid research in 2011],[On Air:Off
+air],[Power:100w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]4],
+[ID6;,[[[26.9759,87.3427]]],[[Organisation:Radio
+Dhankuta],[[Title:Dhankuta, Chuliban - Radio Dhankuta],[Frequency
+:[106.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9759],[Longitude:87.3427],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]5],
+ [ID7;,[[[27.6251,83.47410000000002]]],[[Organisation:Radio
+Devdaha],[[Title:Rupandehi, Sitalnagar, Devdaha 5 - Radio
+Devdaha],[Frequency :[106.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6251],[Longitude:83.4741],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]6],
+[ID8;,[[[29.0033,81.8262]]],[[Organisation:Radio
+Chulimalika],[[Title:Kalikot, Manma 5 - Radio
+Chulimalika],[Frequency :[101.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.0033],[Longitude:81.8262],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]7],
+[ID9;,[[[26.5836,86.7371]]],[[Organisation:Radio
+Chhinnamasta],[[Title:Saptari, Main Road, Rajbiraj-7 - Radio
+Chhinnamasta],[Frequency :[101.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.5836],[Longitude:86.7371],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]8],
+[IDA;,[[[28.6448,81.6367]]],[[Organisation:Radio
+Bheri FM],[[Title:Surkhet, Harre 3 - Radio Bheri FM],[Frequency
+:[98.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6448],[Longitude:81.6367],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]9],
+[IDB;,[[[28.0138,81.6586]]],[[Organisation:Radio
+Bheri Aawaj],[[Title:Banke Karkando Chowk-5, Nepalgunj, Banke - Radio Bheri
+Aawaj],[Frequency :[95.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0138],[Longitude:81.6586],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]10],
+[IDC;,[[[27.9847,84.36130000000001]]],[[Organisation:Radio
+Bhanubhakta],[[Title:Tanahu, Vyas-11, Bhanubhakta Chowk, Damauli - Radio
+Bhanubhakta],[Frequency :[104.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9847],[Longitude:84.3613],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]11],
+[IDD;,[[[28.023500000000002,83.7845]]],[[Organisation:Radio
+Aandhi Khola],[[Title:Syangja, Gyangling, Waling NP-4 - Radio Aandhi
+Khola],[Frequency :[105.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0235],[Longitude:83.7845],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]12],
+[ID0E;,[[[28.652,77.2119]]],[[Organisation:Nepal
+1],[[Title:Barakhamba Road, New Delhi, India - Nepal
+1],[Latitude:28.652],[Longitude:77.2119],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]13],
+[ID0F;,[[[28.0162,81.68880000000001]]],[[Organisation:Radi
+Jana Awaj],[[Title:Banke, Puspalal Chowk, Nepalgunj 2 - Radi Jana
+Awaj],[Frequency :[97.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0162],[Longitude:81.6888],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]14],
+[ID10;,[[[27.6787,85.3088]]],[[Organisation:Paryawaraniya
+Television],[[Title:Lalitpur - Paryawaraniya
+Television],[Latitude:27.6787],[Longitude:85.3088],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]15],
+[ID11;,[[[28.1955,83.9616]]],[[Organisation:Pokhara
+FM],[[Title:Kaski, Chipledhunga, Pokhara 4 - Pokhara
+FM],[Frequency :[95.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1955],[Longitude:83.9616],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]16],
+[ID12;,[[[27.0224,84.8797]]],[[Organisation:Terai
+TV (TTV)],[[Title:Parsa, Birgunj - Terai
+TV],[Latitude:27.0224],[Longitude:84.8797],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]17],
+[ID13;,[[[28.772500000000004,80.6122]]],[[Organisation:Paschim
+Today FM],[[Title:Kailali - Paschim Today FM],[Frequency
+:[88.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7725],[Longitude:80.6122],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]18],
+[ID14;,[[[27.6876,85.337]]],[[Organisation:Channel
+Nepal],[[Title:Kathmandu, Min Bhawan, New Baneshwor - Channel
+Nepal],[Latitude:27.6876],[Longitude:85.337],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]19],
+[ID15;,[[[27.6156,85.3567]]],[[Organisation:Paryawaran
+Chakra Radio (ECR)],[[Title:Lalitpur, Thaiba Village Development Committee 1 Badegaun -
+Paryawaran Chakra Radio (ECR)],[Frequency :[104.2],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.6156],[Longitude:85.3567],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]20],
+[ID16;,[[[27.735,85.3306]]],[[Organisation:Shangri-la
+Television],[[Title:Kathmandu, Panipokhari - Shangri-la
+Television],[Latitude:27.735],[Longitude:85.3306],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]21],
+[ID17;,[[[27.921600000000005,85.1468]]],[[Organisation:Nuwakot
+FM],[[Title:Nuwakot, Kalyanpur 1 - Nuwakot FM],[Frequency
+:[106.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.9216],[Longitude:85.1468],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]22],
+[ID18;,[[[27.698200000000003,85.3234]]],[[Organisation:NTV
+Plus],[[Title:Kathmandu, Singhadarbar - NTV 2 (NTV
+Plus)],[Latitude:27.6982],[Longitude:85.3234],[Location
+Source:infoasaid research in 2011],[TV
+Band:Terrestrial]]]23],
+[ID19;,[[[27.6726,85.4331]]],[[Organisation:Nepali
+Ko Radio],[[Title:Bhaktapur, Madhyapur 11 Ghataghar - Nepali Ko
+Radio],[Frequency :[88.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6726],[Longitude:85.4331],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]24],
+[ID1A;,[[[27.698200000000003,85.3234]]],[[Organisation:Nepal
+Television (NTV)],[[Title:Kathmandu, Singhadarbar - Nepal
+Television],[Latitude:27.6982],[Longitude:85.3234],[Location
+Source:infoasaid research in 2011],[TV
+Band:Terrestrial]]]25],
+[ID1B;,[[[27.696,85.2951]]],[[Organisation:Nepal
+FM],[[Title:Kathmandu, Rabi Bhawan 14 - Nepal FM],[Frequency
+:[91.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.696],[Longitude:85.2951],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]26],
+[ID1C;,[[[27.7303,85.32500000000002]]],[[Organisation:News
+24],[[Title:Kathmandu, Panipokhari - News
+24],[Latitude:27.7303],[Longitude:85.325],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]27],
+[ID1D;,[[[27.009,84.879]]],[[Organisation:Narayani
+FM],[[Title:Parsa - Chetna Ra Sanchar NepalSripur-14, Birgunj, Parsa - Narayani
+FM],[Frequency :[103.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.009],[Longitude:84.879],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]28],
+[ID1E;,[[[27.7092,85.3301]]],[[Organisation:National
+Television],[[Title:Kathmandu, Gyaneshwor - National
+Television],[Latitude:27.7092],[Longitude:85.3301],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]29],
+[0B0E70841A00001F;,[[[26.6401,87.9895]]],[[Organisation:Nagarik
+FM],[[Title:Jhapa, Mechianchan Hospital, Bhadrapur-4 - Nagarik
+FM],[Frequency :[107.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6401],[Longitude:87.9895],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]30],
+[0B0E70841A000020;,[[[27.6714,83.4576]]],[[Organisation:Buddha
+Community Television],[[Title:Rependehi, Butwal - Buddha Community
+Television],[Latitude:27.6714],[Longitude:83.4576],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]31],
+[0B0E70841A000021;,[[[27.8755,83.5785]]],[[Organisation:Muktinath
+FM],[[Title:Palpa, Kailasnagar-7, Tansen - Muktinath
+FM],[Frequency :[90.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.8755],[Longitude:83.5785],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]32],
+[0B0E70841A000022;,[[[26.663400000000003,87.28360000000002]]],[[Organisation:Makalu
+Media Pvt. Ltd.],[[Title:Sunsari - Makalu Media Pvt.
+Ltd.],[Latitude:26.6634],[Longitude:87.2836],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]33],
+[0B0E70841A000023;,[[[26.7088,85.9406]]],[[Organisation:Mithilanchal
+Music FM],[[Title:Dhanusa - Janakpur 7 - Mithilanchal Music
+FM],[Frequency :[99.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7088],[Longitude:85.9406],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]34],
+[0B0E70841A000024;,[[[27.6873,85.3394]]],[[Organisation:Kantipur
+Television Network (KTV)],[[Title:Kathmandu, Shanti Nagar, Baneshwor - Kantipur
+Television
+Network],[Latitude:27.6873],[Longitude:85.3394],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]35],
+[0B0E70841A000025;,[[[26.6769,85.9296]]],[[Organisation:Mithila
+Sanchar Samuha],[[Title:Dhanusa - Mithila Sanchar
+Samuha],[Frequency :[106.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6769],[Longitude:85.9296],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]36],
+[0B0E70841A000026;,[[[27.7258,85.32240000000002]]],[[Organisation:Image
+Channel],[[Title:Kathmandu, Panipokhari - Image
+Channel],[Latitude:27.7258],[Longitude:85.3224],[Location
+Source:infoasaid research in 2011],[TV
+Band:Terrestrial]]]37],
+[0B0E70841A000027;,[[[27.9798,84.5673]]],[[Organisation:Mero
+Saathi],[[Title:Gorkha, Abukhaireni-6, Tanahun (Transmitter at Manakamana-3, Gorkha) -
+Mero Saathi],[Frequency :[107.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9798],[Longitude:84.5673],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]38],
+[0B0E70841A000028;,[[[26.6573,87.7025]]],[[Organisation:Himshikhar
+Television],[[Title:Jhapa - Himshikhar
+Television],[Latitude:26.6573],[Longitude:87.7025],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]39],
+[0B0E70841A000029;,[[[27.6931,85.2807]]],[[Organisation:Maitri
+FM],[[Title:Kathmandu, Lampat, Kalanki-14 - Maitri FM],[Frequency
+:[99.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6931],[Longitude:85.2807],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]40],
+[0B0E70841A00002A;,[[[27.6957,85.3239]]],[[Organisation:GNN
+(Global Nepal Network) Television],[[Title:Kathmandu - GNN (Global Nepal Network)
+Television],[Latitude:27.6957],[Longitude:85.3239],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]41],
+[0B0E70841A00002B;,[[[27.9896,84.3063]]],[[Organisation:Madi
+Seti FM],[[Title:Tanahu, Safa Sadak, Vyas - Madi Seti
+FM],[Frequency :[105.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.9896],[Longitude:84.3063],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]42],
+[0B0E70841A00002C;,[[[27.7262,85.3304]]],[[Organisation:Bhumi
+Television Network Pvt. Ltd.],[[Title:Kathmandu, Baluwatar - Bhumi Television Network
+Pvt.
+Ltd.],[Latitude:27.7262],[Longitude:85.3304],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]43],
+[0B0E70841A00002D;,[[[26.8094,85.27310000000001]]],[[Organisation:Madhesh
+Jana Aawaj],[[Title:Rautahat, Garuda-9 - Madhesh Jana
+Aawaj],[Frequency :[98.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.8094],[Longitude:85.2731],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]44],
+[ID2E;,[[[27.6994,85.3132]]],[[Organisation:ABC
+Television],[[Title:Kathmandu, Sundhara - ABC
+Television],[Latitude:27.6994],[Longitude:85.3132],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]45],
+[ID2F;,[[[27.8882,84.892]]],[],[],2,[[Organisation:Krishi
+Radio],[[Title:Dhading, Naubise 1 Dharke Bazaar - Krishi
+Radio],[Frequency :[105.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.8882],[Longitude:84.892],[Location
+Source:infoasaid research in 2011],[On Air:Unknown],[Last
+Updated:06/05/2015],[Assessed Damage:Building damaged, some cracks, not
+assessed inside, no power backup. Linking device with tower damaged, tower
+works],[Recommendations:Radio link
+device],[Power:50w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]46],
+[ID30;,[[[27.0237,84.8859]]],[[Organisation:Youth
+FM],[[Title:Parsa, Birgunj - Youth FM],[Frequency
+:[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0237],[Longitude:84.8859],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]47],
+[ID31;,[[[28.760400000000004,80.56]]],[[Organisation:Khaptad
+FM],[[Title:Kailali, Geta V.D.C.-7, Mohanpur - Khaptad
+FM],[Frequency :[98.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7604],[Longitude:80.56],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]48],
+[ID32;,[[[28.1955,83.9548]]],[[Organisation:Youth
+FM],[[Title:Kaski, Pokhara - Youth FM],[Frequency
+:[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1955],[Longitude:83.9548],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]49],
+[ID33;,[[[28.7532,82.23270000000001]]],[[Organisation:Khalanga
+FM],[[Title:Jajarkot - Khalanga 2 - Khalanga FM],[Frequency
+:[107.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7532],[Longitude:82.2327],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]50],
+[ID34;,[[[27.6908,84.3311]]],[[Organisation:Youth
+FM],[[Title:Chitawan, Naranghat - Youth FM],[Frequency
+:[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6908],[Longitude:84.3311],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]51],
+[ID35;,[[[28.694200000000002,80.62320000000001]]],[[Organisation:Kantipur
+FM],[[Title:Kailali, Dhangadi - Kantipur FM],[Frequency
+:[101.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6942],[Longitude:80.6232],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]52],
+[ID36;,[[[26.8363,87.2919]]],[[Organisation:Vijaypur
+FM],[[Title:Sunsari, Sainik chowk, Dharan-10 - Vijaypur
+FM],[Frequency :[98.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8363],[Longitude:87.2919],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]53],
+[ID37;,[[[27.6665,84.4464]]],[[Organisation:Kantipur
+FM],[[Title:Chitawan, Bharatpur - Kantipur FM],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6665],[Longitude:84.4464],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]54],
+[ID38;,[[[28.6038,82.4139]]],[[Organisation:Uttarjganga
+Sanchar Kendra],[[Title:Rukum - Uttarjganga Sanchar
+Kendra],[Frequency :[102.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.6038],[Longitude:82.4139],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]55],
+[ID39;,[[[26.6303,87.9881]]],[[Organisation:Kanchanjungha
+FM],[[Title:Jhapa, Anarmani-3, Birtamod - Kanchanjungha
+FM],[Frequency :[92.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6303],[Longitude:87.9881],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]56],
+[ID3A;,[[[28.7219,80.6287]]],[[Organisation:Ujyalo
+Sudur Paschhim Ka Lagi Media Sanjal],[[Title:Kailali - Ujyalo Sudur Paschhim Ka Lagi
+Media Sanjal],[Frequency :[105.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.7219],[Longitude:80.6287],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]57],
+[ID3B;,[[[27.686,86.01880000000001]]],[],[],3,[[Organisation:Kalinchowk
+FM Radio],[[Title:Dolakha, Chari Ghayang, Bhimeshwar, Charikot-1 - Kalinchowk FM
+Radio],[Frequency :[106.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.686],[Longitude:86.0188],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:Control room ceiling has cracks,
+telephone hybrid and 1 computer damaged],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]58],
+[ID3C;,[[[27.702400000000004,85.3207]]],[[Organisation:TU
+FM],[[Title:Kathmandu, Ratna Rajya College, Pradarsani Marg - TU
+FM],[Frequency :[107.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7024],[Longitude:85.3207],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]59],
+[ID3D;,[[[27.6568,84.386]]],[[Organisation:Kalika
+FM],[[Title:Chitawan, Bharatpur 10 Dipendra Chowk - Kalika
+FM],[Frequency :[95.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6568],[Longitude:84.386],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]60],
+[0B0E70841C00003E;,[[[27.6349,83.47410000000002]]],[[Organisation:Tinau
+FM],[[Title:Rupandehi, Kalikanagar, Butwal-12 - Tinau
+FM],[Frequency :[98.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6349],[Longitude:83.4741],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]61],
+[0B0E70841C00003F;,[[[27.035900000000005,84.8859]]],[[Organisation:Kadambari
+FM],[[Title:Parsa - Kadambari FM],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.0359],[Longitude:84.8859],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]62],
+[0B0E70841C000040;,[[[27.5205,83.0429]]],[[Organisation:Tilarakot
+Samudayik Radio FM],[[Title:Kapilvastu - Tilarakot Samudayik Radio
+FM],[Frequency :[107.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.5205],[Longitude:83.0429],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]63],
+[0B0E70841C000041;,[[[26.5369,87.2095]]],[[Organisation:Janasanchar
+Kendra],[[Title:Morang Party Gaun VDC 1 - Janasanchar
+Kendra],[Frequency :[95.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.5369],[Longitude:87.2095],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]64],
+[0B0E70841C000042;,[[[28.2016,83.9767]]],[[Organisation:Tarang
+Pvt. Ltd],[[Title:kaski, Sawa Griha Chowk, Pokhara-8 - Tarang Pvt.
+Ltd],[Frequency :[107.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2016],[Longitude:83.9767],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]65],
+[0B0E70841C000043;,[[[27.5497,83.0292]]],[[Organisation:Janakpur
+Sanchar Samuha],[[Title:Kapilvastu - Janakpur Sanchar
+Samuha],[Frequency :[106.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.5497],[Longitude:83.0292],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]66],
+[0B0E70841C000044;,[[[28.289900000000003,82.2821]]],[[Organisation:Super
+FM],[[Title:Dang - Super FM],[Frequency
+:[106.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2899],[Longitude:82.2821],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]67],
+[0B0E70841C000045;,[[[26.7235,85.9323]]],[[Organisation:Janakpur
+FM],[[Title:Dhanusha, Janaki Mandir, Janakpur 10 - Janakpur
+FM],[Frequency :[101.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7235],[Longitude:85.9323],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]68],
+[0B0E70841C000046;,[[[27.0909,87.7835]]],[[Organisation:Sumhatlung
+FM],[[Title:Panchthar, Phidim-4, Gadhi - Sumhatlung FM],[Frequency
+:[104.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0909],[Longitude:87.7835],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]69],
+[0B0E70841C000047;,[[[26.7284,85.9378]]],[[Organisation:Janaki
+FM],[[Title:Dhanusha, Devi Chowk 10, Janakpur - Janaki
+FM],[Frequency :[106.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7284],[Longitude:85.9378],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]70],
+[0B0E70841C000048;,[[[27.6905,85.3262]]],[[Organisation:Star
+FM],[[Title:Kathmandu, Madhya Baneshwor-10 - Star FM],[Frequency
+:[95.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6905],[Longitude:85.3262],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]71],
+[0B0E70841C000049;,[[[26.5566,86.759]]],[[Organisation:Janak
+Sanchar Samuha],[[Title:Saptari - Janak Sanchar Samuha],[Frequency
+:[102.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.5566],[Longitude:86.759],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]72],
+[0B0E70841C00004A;,[[[26.4632,87.2781]]],[[Organisation:Sky
+FM],[[Title:Morang, Bhrikuti Chowk, Biratnagar-6 - Sky
+FM],[Frequency :[106.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.4632],[Longitude:87.2781],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]73],
+[0B0E70841C00004B;,[[[27.7127,85.3143]]],[[Organisation:Jana
+Sandesh],[[Title:Kathmandu - Jana Sandesh],[Frequency
+:[88.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7127],[Longitude:85.3143],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]74],
+[0B0E70841D00004C;,[[[27.7565,85.7455]]],[],[],1,[[Organisation:Sindhu
+FM],[[Title:Sindhupalchok - Sindhu FM],[Frequency
+:[102.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7565],[Longitude:85.7455],[Location
+Source:infoasaid research in 2011],[On Air:Off air],[Last
+Updated:06/05/2015],[Assessed Damage:All equipment burried. The station was a
+relay station for Radio Sindhu.],[Recommendations:Salvage equipment, continue assessment;
+Suitcase radio, tend, food supplies, backup],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM],[Comments:Next step could be preparing a budget for the support;
+inventories being prepared by the asset team could assist the process. Purchae hire 3 portable generators for loaning to ACORAB
+that can loan them to stations with power needs, which fuel if
+possible..]]]75],
+[0B0E70841D00004D;,[[[26.6794,87.30830000000002]]],[[Organisation:Jana
+Sanchar Kendra Nepal],[[Title:Sunsari - Jana Sanchar Kendra
+Nepal],[Frequency :[103.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6794],[Longitude:87.3083],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]76],
+[0B0E70841D00004E;,[[[27.647,83.4879]]],[[Organisation:Siddhartha
+FM],[[Title:Rupandehi, B.P. Path-8, Siddhartha Nagar - Siddhartha
+FM],[Frequency :[98.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.647],[Longitude:83.4879],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]77],
+[0B0E70841D00004F;,[[[26.6695,85.7867]]],[[Organisation:Jaleshwarnath
+FM],[[Title:Mahottari, Jaleshwar 4 - Jaleshwarnath FM],[Frequency
+:[90.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6695],[Longitude:85.7867],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]78],
+[0B0E70841D000050;,[[[27.8804,83.5895]]],[[Organisation:Shrinagar
+FM],[[Title:Palpa, Kailashnagar, Tansen-7 - Shrinagar
+FM],[Frequency :[93.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.8804],[Longitude:83.5895],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]79],
+[0B0E70841D000051;,[[[26.4595,87.285]]],[[Organisation:Jagriti
+FM],[[Title:Morang, Biratnagar-2, Tinpaini - Jagriti
+FM],[Frequency :[87.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.4595],[Longitude:87.285],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]80],
+[0B0E70841D000052;,[[[29.610500000000002,80.983]]],[[Organisation:Seti
+Samudayik FM],[[Title:Bajhang, Martuli, Hemantbada 6 - Seti Samudayik
+FM],[Frequency :[93.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.6105],[Longitude:80.983],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]81],
+[0B0E70841D000053;,[[[28.6279,81.6312]]],[[Organisation:Jagaran
+FM],[[Title:Surkhet, Birendranagar - 6, New Road, Surkhet - Jagaran
+FM],[Frequency :[90.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6279],[Longitude:81.6312],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]82],
+[0B0E70841D000054;,[[[29.0226,82.9166]]],[[Organisation:Se
+Foksundo Samudayik Sanchar Sahakari Sanstha Limited],[[Title:Dolpa - Se Foksundo
+Samudayik Sanchar Sahakari Sanstha Limited],[Frequency :[106.3],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:29.0226],[Longitude:82.9166],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]83],
+[0B0E70841D000055;,[[[28.0417,82.47990000000001]]],[[Organisation:Indreni
+FM (Pal Pal Ko Saathi)],[[Title:Dang, Ghorahi, Tribhuwan Park-10 - Indreni FM (Pal Pal
+Ko Saathi)],[Frequency :[92.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.0417],[Longitude:82.4799],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]84],
+[0B0E70841D000056;,[[[29.525700000000004,80.5243]]],[[Organisation:Saugat
+FM],[[Title:Baitadi - Dashrath Municipality - Saugat
+FM],[Frequency :[103.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.5257],[Longitude:80.5243],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]85],
+[0B0E70841D000057;,[[[27.0224,84.8914]]],[[Organisation:Indreni
+FM],[[Title:Parsa, Birgunj upmahanagarpalika 14 - Indreni
+FM],[Frequency :[97.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0224],[Longitude:84.8914],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]86],
+[0B0E70841D000058;,[[[28.2608,83.2654]]],[[Organisation:Sarathi
+FM],[[Title:Baglung - Sarathi FM],[Frequency
+:[107.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2608],[Longitude:83.2654],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]87],
+[0B0E70841D000059;,[[[27.647,83.4494]]],[[Organisation:Image
+FM],[[Title:Rupandehi, Butwal - Image FM],[Frequency
+:[97.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.647],[Longitude:83.4494],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]88],
+[0B0E70841D00005A;,[[[26.654800000000005,87.27260000000001]]],[[],[[Title:Sunsari,
+Itahari-8, Biratnagar Line - Saptakoshi FM],[Frequency :[90.0],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:26.6548],[Longitude:87.2726],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]89],
+[0B0E70841E00005B;,[[[27.0261,84.8845]]],[[Organisation:Image
+FM],[[Title:Parsa, Birgunj - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0261],[Longitude:84.8845],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]90],
+[0B0E70841E00005C;,[[[27.0322,85.0287]]],[[Organisation:Sanskar
+FM],[[Title:Bara, Bhawanipur 4, Kalaiya - Sanskar FM],[Frequency
+:[88.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0322],[Longitude:85.0287],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]91],
+[0B0E70841E00005D;,[[[27.7265,85.3215]]],[[Organisation:Image
+FM],[[Title:Kathmandu, Lazimpat - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7265],[Longitude:85.3215],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]92],
+[0B0E70841E00005E;,[[[29.267200000000003,80.5435]]],[[Organisation:Samudayik
+Vikash Tatha Samajik Nyaya Manch],[[Title:Dadeldhura - Samudayik Vikash Tatha Samajik
+Nyaya Manch],[Frequency :[97.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.2672],[Longitude:80.5435],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]93],
+[0B0E70841E00005F;,[[[28.1931,83.9548]]],[[Organisation:Image
+FM],[[Title:Kaski, Pokhara - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1931],[Longitude:83.9548],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]94],
+[0B0E70841E000060;,[[[27.4376,85.0328]]],[[Organisation:Samudayik
+Radio Shakti],[[Title:Makwanpur, Hetauda Nagarpalika, Birendrapath-4 - Samudayik Radio
+Shakti],[Frequency :[103.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.4376],[Longitude:85.0328],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]95],
+[0B0E70841E000061;,[[[26.9882,87.3303]]],[[Organisation:Image
+FM],[[Title:Dhankuta, Bhedetar - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9882],[Longitude:87.3303],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]96],
+[0B0E70841E000062;,[[[26.713700000000003,86.4514]]],[[Organisation:Samudayik
+Radio Saugat],[[Title:Siraha, Atithimarg, Lahan-7 - Samudayik Radio
+Saugat],[Frequency :[88.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.7137],[Longitude:86.4514],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]97],
+[0B0E70841E000063;,[[[27.6543,84.4299]]],[[Organisation:Image
+FM],[[Title:Chitawan, Bharatpur - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6543],[Longitude:84.4299],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]98],
+[0B0E70841E000064;,[[[27.8706,83.5551]]],[[Organisation:Samudayik
+Radio Palpa],[[Title:Palpa - Samudayik Radio Palpa],[Frequency
+:[103.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.8706],[Longitude:83.5551],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]99],
+[0B0E70841E000065;,[[[27.6933,84.3448]]],[[Organisation:Samudayik
+Radio Dhruvatara],[[Title:Chitawan - Kamana Tole, Dipendra Nagar, Bharatpur 10 -
+Samudayik Radio Dhruvatara],[Frequency :[89.8],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.6933],[Longitude:84.3448],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]100],
+[0B0E70841E000066;,[[[28.009,81.6806]]],[[Organisation:Image
+FM],[[Title:Banke, Nepalgunj - Image FM],[Frequency
+:[97.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.009],[Longitude:81.6806],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]101],
+[0B0E70841E000067;,[[[26.9245,87.9195]]],[[Organisation:Ilam
+FM],[[Title:Ilam 2, Sikhar Nagar - Ilam FM],[Frequency
+:[93.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9245],[Longitude:87.9195],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]102],
+[0B0E70841E000068;,[[[27.1765,87.0969]]],[[Organisation:Samudayik
+Radio Chomolungma],[[Title:Bhojpur, Kafle 9 - Samudayik Radio
+Chomolungma],[Frequency :[98.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.1765],[Longitude:87.0969],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]103],
+[0B0E70841E000069;,[[[27.6905,85.3301]]],[[Organisation:Htis
+FM],[[Title:Kathmandu , New Baneshwor - Htis FM],[Frequency
+:[91.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6905],[Longitude:85.3301],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]104],
+[0B0E70841F00006A;,[[[26.7162,86.4624]]],[[Organisation:Samad
+FM],[[Title:Siraha, Krishna Tole, Lahan-1 - Samad FM],[Frequency
+:[102.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7162],[Longitude:86.4624],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]105],
+[0B0E70841F00006B;,[[[28.204,83.9767]]],[[Organisation:Himchuli
+FM],[[Title:Kaski, Simalchour, Pokhara 8 - Himchuli FM],[Frequency
+:[92.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.204],[Longitude:83.9767],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]106],
+[0B0E70841F00006C;,[[[29.5794,81.0599]]],[[Organisation:Saipal
+Radio],[[Title:Bajhang, Hemantbada Village Development Committee 1, Rajkot - Saipal
+Radio],[Frequency :[100.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.5794],[Longitude:81.0599],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]107],
+[0B0E70841F00006D;,[[[28.6038,81.6312]]],[[Organisation:Himal
+FM],[[Title:Surkhet, Khajura, Birendranagar-10 - Himal
+FM],[Frequency :[106.7],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6038],[Longitude:81.6312],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]108],
+[0B0E70841F00006E;,[[[27.6787,83.4631]]],[[Organisation:Rupandehi
+FM],[[Title:Rupandehi,Puspalal Path, Sidharthanagar Nagarpalika-8 - Rupandehi
+FM],[Frequency :[102.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6787],[Longitude:83.4631],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]109],
+[0B0E70841F00006F;,[[[26.6376,85.8005]]],[[Organisation:Rautahat
+FM],[[Title:Rautahat, Bidhyapath Nagar, Gaur-5 - Rautahat
+FM],[Frequency :[90.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6376],[Longitude:85.8005],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]110],
+[0B0E70841F000070;,[[[27.423,85.0287]]],[[Organisation:Hetauda
+FM],[[Title:Makwanpur, Kamaldanda-4, Hetauda - Hetauda
+FM],[Frequency :[96.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.423],[Longitude:85.0287],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]111],
+[0B0E70841F000071;,[[[28.4083,82.197]]],[[Organisation:Rapti
+FM],[[Title:Salyan, Khalanga-5, Danda Gaun - Rapti FM],[Frequency
+:[104.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.4083],[Longitude:82.197],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]112],
+[0B0E70841F000072;,[[[27.0689,87.30830000000002]]],[[Organisation:Heart
+FM],[[Title:Dhankuta - Heart FM],[Frequency
+:[87.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0689],[Longitude:87.3083],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]113],
+[0B0E70841F000073;,[[[27.9483,84.8721]]],[],[],3,[[Organisation:Rajmarga
+Samudayik Sanchar Kendra],[[Title:Dhading - Rajmarga Samudayik Sanchar
+Kendra],[Frequency :[92.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.9483],[Longitude:84.8721],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:2 computers, radio-link damaged
+(replaced)],[Recommendations:Computer for news
+damaged],[Power:100w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]114],
+[0B0E70841F000074;,[[[27.6767,85.3135]]],[[Organisation:Headlines
+and Music FM],[[Title:Lalitpur, Pulchowk-4, Ypa Complex - Headlines and Music
+FM],[Frequency :[97.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6767],[Longitude:85.3135],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]115],
+[0B0E70841F000075;,[[[26.8045,85.2759]]],[[Organisation:Rajdevi
+FM],[[Title:Rautahat, Gaur 3 - Rajdevi FM],[Frequency
+:[93.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8045],[Longitude:85.2759],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]116],
+[0B0E70841F000076;,[[[26.6155,87.9099]]],[[Organisation:Hamro
+Sanchar Samuha],[[Title:Jhapa - Hamro Sanchar Samuha],[Frequency
+:[89.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6155],[Longitude:87.9099],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]117],
+[0B0E70841F000077;,[[[28.0114,83.779]]],[[Organisation:Radio
+Waling],[[Title:Syangja, Bakhunde, Waling-2 - Radio
+Waling],[Frequency :[89.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0114],[Longitude:83.779],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]118],
+[0B0E708420000078;,[[[27.748000000000005,86.06550000000001]]],[[Organisation:Hamro
+Radio],[[Title:Dolakha, Bhimeswor, Charikot 10 - Hamro
+Radio],[Frequency :[103.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.748],[Longitude:86.0655],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]119],
+[0B0E708420000079;,[[[27.6981,85.30230000000002]]],[[Organisation:Radio
+Upatyaka],[[Title:Kathmandu, Teku 12 - Radio Upatyaka],[Frequency
+:[87.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6981],[Longitude:85.3023],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]120],
+[0B0E70842000007A;,[[[28.6291,81.1491]]],[[Organisation:Hamro
+Fulbari FM],[[Title:Kailali - Baliya-8, Lamki - Hamro Fulbari
+FM],[Frequency :[107.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6291],[Longitude:81.1491],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]121],
+[0B0E70842000007B;,[[[28.130100000000002,82.3027]]],[[Organisation:Radio
+Tulsipur],[[Title:Dang, Ghorahi Chowk, Tulsipur 5 - Radio
+Tulsipur],[Frequency :[100.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1301],[Longitude:82.3027],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]122],
+[0B0E70842000007C;,[[[27.6689,84.4409]]],[],[],3,[[Organisation:Hamro
+FM],[[Title:Chitawan, Bypass Road, Bharatpur 11 - Hamro
+FM],[Frequency :[94.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6689],[Longitude:84.4409],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:Telephone hybrid, UPS, Fax, and 3
+computers damaged],[Power:2000w],[Power Source:infoasaid
+research in 2011],[Radio
+Band:FM]]]123],
+[0B0E70842000007D;,[[[27.6504,84.467]]],[[Organisation:Radio
+Triveni],[[Title:Chitawan, Bharatpur Na. Pa. 11 - Radio
+Triveni],[Frequency :[100.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6504],[Longitude:84.467],[Location
+Source:geocoded from Yahoo],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]124],
+[0B0E70842000007E;,[[[29.240900000000003,82.1228]]],[[Organisation:Hamro
+Aawaj Hamro Sarokar],[[Title:Jumla - Hamro Aawaj Hamro
+Sarokar],[Frequency :[100.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.2409],[Longitude:82.1228],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]125],
+[0B0E70842000007F;,[[[26.7284,85.9158]]],[[Organisation:Radio
+Today],[[Title:Dhanusha, Mills Area, Janakpur-1 - Radio
+Today],[Frequency :[91.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.7284],[Longitude:85.9158],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]126],
+[0B0E708420000080;,[[[28.6291,81.1478]]],[[Organisation:Hamra
+Malika FM],[[Title:Kailali, Baliya-8, Lamki - Hamra Malika
+FM],[Frequency :[107.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6291],[Longitude:81.1478],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]127],
+[0B0E708420000081;,[[[27.4291,85.0438]]],[[Organisation:Radio
+Thaha Sansar],[[Title:Makwanpur, Hetauda-9, Lamsure Height - Radio Thaha
+Sansar],[Frequency :[99.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.4291],[Longitude:85.0438],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]128],
+[0B0E708420000082;,[[[27.2253,86.7975]]],[[Organisation:Haleshi
+FM],[[Title:Khotang, Diktel 1 - Haleshi FM],[Frequency
+:[102.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.2253],[Longitude:86.7975],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]129],
+[0B0E708420000083;,[[[27.4376,87.6819]]],[[Organisation:Radio
+Taplejung],[[Title:Taplejung, Vintuna, Jaubari-4 - Radio
+Taplejung],[Frequency :[94.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.4376],[Longitude:87.6819],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]130],
+[0B0E708420000084;,[[[27.4157,86.0614]]],[[Organisation:Hajurko
+Radio],[[Title:Ramechhap, Ramechap-9, Ramechap Bazaar - Hajurko
+Radio],[Frequency :[102.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.4157],[Longitude:86.0614],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]131],
+[0B0E708420000085;,[[[27.423,87.6874]]],[[Organisation:Radio
+Tamor],[[Title:Taplejung, Dokhu 9 - Radio Tamor],[Frequency
+:[102.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.423],[Longitude:87.6874],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]132],
+[0B0E708420000086;,[[[27.3718,87.2067]]],[[Organisation:Gurans
+FM],[[Title:Sankhuwasabha, Chandani Chowk, Khandbari-1 - Gurans
+FM],[Frequency :[107.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.3718],[Longitude:87.2067],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]133],
+[0B0E708420000087;,[[[28.0405,82.4854]]],[[Organisation:Radio
+Swargadwari],[[Title:Dang, Tribhuvan Municipality 11 - Radio
+Swargadwari],[Frequency :[102.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.0405],[Longitude:82.4854],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]134],
+[0B0E708421000088;,[[[28.8062,83.7721]]],[[Organisation:Gramin
+Suchana Tatha Pravidhi Vikash Kendra],[[Title:Mustang - Gramin Suchana Tatha Pravidhi
+Vikash Kendra],[Frequency :[89.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.8062],[Longitude:83.7721],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]135],
+[0B0E708421000089;,[[[28.601400000000005,81.5927]]],[[Organisation:Radio
+Surkhet],[[Title:Surkhet, Birendranagar Lekfarsa Village Development Committee 7 -
+Radio Surkhet],[Frequency :[90.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.6014],[Longitude:81.5927],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]136],
+[0B0E70842100008A;,[[[27.6162,85.5565]]],[[Organisation:Grace
+FM],[[Title:Kavre, Dulikhel 6 - Grace FM],[Frequency
+:[107.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6162],[Longitude:85.5565],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]137],
+[0B0E70842100008B;,[[[26.6487,85.8005]]],[[Organisation:Radio
+Sungava FM],[[Title:Mahottari, Gauridada, Gauribas-2 - Radio Sungava
+FM],[Frequency :[107.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6487],[Longitude:85.8005],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]138],
+[0B0E70842100008C;,[[[28.2076,83.9726]]],[[Organisation:Gorkhali
+Radio],[[Title:Kaski, Pokhara, Simal Chour-8 - Gorkhali
+Radio],[Frequency :[106.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.2076],[Longitude:83.9726],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]139],
+[0B0E70842100008D;,[[[29.284,80.5353]]],[[Organisation:Radio
+Sudur Aawaj],[[Title:Dadeldhura - Amargadhi-5, Bidhut Road - Radio Sudur
+Aawaj],[Frequency :[95.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.284],[Longitude:80.5353],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]140],
+[0B0E70842100008E;,[[[27.3669,85.946]]],[[Organisation:Radio
+Sindhuligadi],[[Title:Sindhuli, Kamalamai-6, Ratmata Height - Radio
+Sindhuligadi],[Frequency :[92.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.3669],[Longitude:85.946],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]141],
+[0B0E70842100008F;,[[[27.1765,84.9875]]],[[Organisation:Radio
+Simara],[[Title:Bara, Simara 3 - Radio Simara],[Frequency
+:[106.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.1765],[Longitude:84.9875],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]142],
+[0B0E708421000090;,[[[28.3914,82.197]]],[[Organisation:Radio
+Sharada],[[Title:Salyan, Kalanga 5 - Radio Sharada],[Frequency
+:[99.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.3914],[Longitude:82.197],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]143],
+[0B0E708421000091;,[[[27.721400000000003,85.3473]]],[[Organisation:Gopikrishna
+FM Radio Filmy],[[Title:Kathmandu , Gopikrishna Nagar, Chabahil-6 - Gopikrishna FM
+Radio Filmy],[Frequency :[101.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.7214],[Longitude:85.3473],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]144],
+[0B0E708421000092;,[[[28.2233,83.6787]]],[[Organisation:Radio
+Shaligram],[[Title:Parbat, Shivalaya 4, Kusma - Radio
+Shaligram],[Frequency :[100.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.2233],[Longitude:83.6787],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]145],
+[0B0E708421000093;,[[[28.1362,82.2943]]],[[Organisation:Radio
+Saryu Ganga],[[Title:Dang, Birendra Chowk, Tulsipur-5 - Radio Saryu
+Ganga],[Frequency :[104.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1362],[Longitude:82.2943],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]146],
+[0B0E708421000094;,[[[27.7004,85.3227]]],[[Organisation:Good
+News FM],[[Title:Kathmandu, Kumarigalli, Anamnagar-32 - Good News
+FM],[Frequency :[105.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7004],[Longitude:85.3227],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]147],
+[0B0E708421000095;,[[[26.7113,86.4487]]],[[Organisation:Radio
+Sarlahi],[[Title:Sarlahi, Hariwon-9, Hariwon - Radio
+Sarlahi],[Frequency :[105.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.7113],[Longitude:86.4487],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]148],
+[0B0E708421000096;,[[[28.3128,83.7186]]],[[Organisation:Radio
+Didi Bahini],[[Title:Parbat, Pragati Chowk, Kusma-4 - Radio Didi
+Bahini],[Frequency :[95.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.3128],[Longitude:83.7186],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]149],
+[0B0E708422000097;,[[[28.8471,81.7191]]],[[Organisation:Radio
+Dhurbatara Samudayik FM],[[Title:Dailekh, Narayan Nagarpalika-1, Purano Bazaar - Radio
+Dhurbatara Samudayik FM],[Frequency :[89.8],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:28.8471],[Longitude:81.7191],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]150],
+[0B0E708422000098;,[[[28.2608,83.3093]]],[[Organisation:Radio
+Dhorpatan],[[Title:Baglung - Radio Dhorpatan],[Frequency
+:[104.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2608],[Longitude:83.3093],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]151],
+[0B0E708422000099;,[[[27.9871,84.2569]]],[[Organisation:Radio
+Devghat],[[Title:Tahanu, Giri Dhari Tol, Devghat-2 - Radio
+Devghat],[Frequency :[102.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9871],[Longitude:84.2569],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]152],
+[0B0E70842200009A;,[[[28.1943,83.9658]]],[[Organisation:Radio
+Chhunumunu],[[Title:Kaski, Sabha Griha Chowk, Pokhara-8 - Radio
+Chhunumunu],[Frequency :[87.9],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1943],[Longitude:83.9658],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]153],
+[0B0E70842200009B;,[[[27.0212,84.8708]]],[[Organisation:Radio
+Birgunj],[[Title:Parsa, Murli Bagaincha-15, Birgunj - Radio
+Birgunj],[Frequency :[99.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.0212],[Longitude:84.8708],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]154],
+[0B0E70842200009C;,[[[28.5918,81.6257]]],[[Organisation:Radio
+Bheri FM],[[Title:Surkhet, Birendranagar 6 - Radio Bheri
+FM],[Frequency :[102.7],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.5918],[Longitude:81.6257],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]155],
+[0B0E70842200009D;,[[[28.9312,81.6559]]],[[Organisation:Radio
+Bhek Aawaj],[[Title:Kalikot, Odanako-9, Okhle - Radio Bhek
+Aawaj],[Frequency :[101.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.9312],[Longitude:81.6559],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]156],
+[0B0E70842200009E;,[[[28.1943,83.9575]]],[[Organisation:Radio
+Barahi],[[Title:Kaski, Rastra Bank Chowk, Pokhara-17 - Radio
+Barahi],[Frequency :[99.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1943],[Longitude:83.9575],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]157],
+[0B0E70842200009F;,[[[27.7006,85.3253]]],[],[],2,[[Organisation:Radio
+Bagmati],[[Title:Kathmandu - Radio Bagmati],[Frequency
+:[103.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7006],[Longitude:85.3253],[Location
+Source:infoasaid research in 2011],[On Air:Unknown],[Last
+Updated:06/05/2015],[Assessed Damage:Not visited. No back up power. Internal
+damages minimum],[Recommendations:Could resume once grid supply
+resumes],[Next Steps:Generator loan if electricity is not
+resumed],[Power:500w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]158],
+[0B0E7084220000A0;,[[[27.8998,85.1413]]],[[Organisation:Radio
+Aviyan],[[Title:Nuwakot, Bidur 2 - Radio Aviyan],[Frequency
+:[103.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.8998],[Longitude:85.1413],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]159],
+[0B0E7084220000A1;,[[[27.4242,85.041]]],[[Organisation:Radio
+Asmita],[[Title:Makwanpur - Radio Asmita],[Frequency
+:[106.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.4242],[Longitude:85.041],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]160],
+[0B0E7084220000A2;,[[[27.9689,83.0869]]],[[Organisation:Radio
+Argakhanchi],[[Title:Arghakhanchi, Sandhikarkha-6 - Radio
+Argakhanchi],[Frequency :[105.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9689],[Longitude:83.0869],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]161],
+[0B0E7084220000A3;,[[[27.6151,85.5529]]],[],[],3,[[Organisation:Radio
+ABC],[[Title:Kavre, Thunla Chowk, Banepa-10 - Radio
+ABC],[Frequency :[89.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6151],[Longitude:85.5529],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:Broadcasting since
+29/04/2014],[Power:500w],[Power Source:infoasaid research
+in 2011],[Radio
+Band:FM]]]162],
+[0B0E7084220000A4;,[[[27.426600000000004,85.0301]]],[[Organisation:Radio
+Aakash Ganga],[[Title:Makwanpur, Hetauda-6, Chaugadha - Radio Aakash
+Ganga],[Frequency :[88.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.4266],[Longitude:85.0301],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]163],
+[0B0E7084220000A5;,[[[27.7018,84.3874]]],[[Organisation:Kalas
+Television],[[Title:Chitawan - Kalas
+Television],[Latitude:27.7018],[Longitude:84.3874],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]164],
+[0B0E7084230000A6;,[[[26.6352,87.2562]]],[[Organisation:Popular
+FM],[[Title:Sunsari, Ji.Bi.Sa Road, Inaruwa-7 - Popular
+FM],[Frequency :[99.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6352],[Longitude:87.2562],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]165],
+[0B0E7084230000A7;,[[[27.7111,85.32630000000002]]],[[Organisation:Voice
+of Youth Television Network],[[Title:Kathmandu - Voice of Youth Television
+Network],[Latitude:27.7111],[Longitude:85.3263],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]166],
+[0B0E7084230000A8;,[[[26.647500000000004,87.7505]]],[[Organisation:Pathivara
+FM],[[Title:Jhapa, Damak 10 - Pathivara FM],[Frequency
+:[93.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6475],[Longitude:87.7505],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]167],
+[0B0E7084230000A9;,[[[27.7018,85.3267]]],[[Organisation:Sunrise
+Television],[[Title:Kathmandu - Sunrise
+Television],[Latitude:27.7018],[Longitude:85.3267],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]168],
+[0B0E7084230000AA;,[[[29.2744,80.5106]]],[[Organisation:Paschim
+Nepal Media Aviyan],[[Title:Dadeldhura - Paschim Nepal Media
+Aviyan],[Frequency :[96.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.2744],[Longitude:80.5106],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]169],
+[0B0E7084230000AB;,[[[27.7173,85.3468]]],[[Organisation:TV
+Filmy],[[Title:Kathmandu, Chabahil - TV
+Filmy],[Latitude:27.7173],[Longitude:85.3468],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]170],
+[0B0E7084230000AC;,[[[28.743599999999997,82.2134]]],[[Organisation:Panchtara
+Yuwa Sanraksak Manch],[[Title:Jajarkot - Panchtara Yuwa Sanraksak
+Manch],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7436],[Longitude:82.2134],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]171],
+[0B0E7084230000AD;,[[[27.6928,85.3246]]],[[Organisation:Sagarmatha
+Television],[[Title:Kathmandu, Dhobikhola, Babarmahal - Sagarmatha
+Television],[Latitude:27.6928],[Longitude:85.3246],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]172],
+[0B0E7084230000AE;,[[[27.6793,85.2863]]],[[Organisation:Newa
+FM],[[Title:Kirtipur 1, Nyamasima - Newa FM],[Frequency
+:[106.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6793],[Longitude:85.2863],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]173],
+[0B0E7084230000AF;,[[[27.698200000000003,85.3234]]],[[Organisation:NTV
+Plus],[[Title:Kathmandu, Singhadarbar - NTV 2 (NTV
+Plus)],[Latitude:27.6982],[Longitude:85.3234],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]174],
+[0B0E7084230000B0;,[[[28.0187,81.6806]]],[[Organisation:Nepalgunj
+Samudayik FM],[[Title:Banke, Buddha Basti, Nepalgunj 2 - Nepalgunj Samudayik
+FM],[Frequency :[104.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0187],[Longitude:81.6806],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]175],
+[0B0E7084230000B1;,[[[27.698200000000003,85.3234]]],[[Organisation:Nepal
+Television (NTV)],[[Title:Kathmandu, Singhadarbar - Nepal
+Television],[Latitude:27.6982],[Longitude:85.3234],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]176],
+[0B0E7084230000B2;,[[[28.0138,81.7108]]],[[Organisation:Naya
+Nepal Sanchar Sahakari Sanstha],[[Title:Banke, Nepalgunj 10 - Naya Nepal Sanchar
+Sahakari Sanstha],[Frequency :[104.2],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:28.0138],[Longitude:81.7108],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]177],
+[0B0E7084230000B3;,[[[27.7091,85.3226]]],[[Organisation:Nepal
+Broadcasting Channel Pvt. Ltd.],[[Title:Kathmandu - Nepal Broadcasting Channel Pvt.
+Ltd.],[Latitude:27.7091],[Longitude:85.3226],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]178],
+[0B0E7084230000B4;,[[[26.6695,87.2781]]],[[Organisation:Namaste
+FM],[[Title:Sunsari, Itahari - Namaste FM],[Frequency
+:[107.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6695],[Longitude:87.2781],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]179],
+[0B0E7084230000B5;,[[[27.6738,85.4187]]],[[Organisation:NBEX
+Television],[[Title:Bhaktapur, Thimi, Lokanthali - NBEX
+Television],[Latitude:27.6738],[Longitude:85.4187],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]180],
+[0B0E7084230000B6;,[[[28.425200000000004,83.5016]]],[[Organisation:Myagdikali
+FM],[[Title:Myagdi - Beni Bazaar-1, Aurthuge, Myagdi - Myagdikali
+FM],[Frequency :[88.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.4252],[Longitude:83.5016],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]181],
+[0B0E7084230000B7;,[[[26.7174,85.909]]],[[Organisation:Madhes
+Television],[[Title:Dhanusha, Janakpur - Madhes
+Television],[Latitude:26.7174],[Longitude:85.909],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]182],
+[0B0E7084240000B8;,[[[29.7513,82.5169]]],[[Organisation:Mugali
+Chalchitra Vikash Sang],[[Title:Mugu - Mugali Chalchitra Vikash
+Sang],[Frequency :[106.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.7513],[Longitude:82.5169],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]183],
+[0B0E7084240000B9;,[[[27.6873,85.3394]]],[[Organisation:Kantipur
+Television Network (KTV)],[[Title:Kathmandu, Shanti Nagar, Baneshwor - Kantipur
+Television
+Network],[Latitude:27.6873],[Longitude:85.3394],[Location
+Source:infoasaid research in 2011],[TV
+Band:Terrestrial]]]184],
+[0B0E7084240000BA;,[[[26.7162,85.9241]]],[[Organisation:Mithilanchal
+FM],[[Title:Dhanusa, Ramananda Chowk, Janakpur 8 - Mithilanchal
+FM],[Frequency :[105.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7162],[Longitude:85.9241],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]185],
+[0B0E7084240000BB;,[[[27.6908,83.4494]]],[[Organisation:Lumbini
+Community Television],[[Title:Rupendehi, Butwal, Kalikanagar - Lumbini Community
+Television],[Latitude:27.6908],[Longitude:83.4494],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]186],
+[0B0E7084240000BC;,[[[27.7013,85.3258]]],[[Organisation:Metro
+FM],[[Title:Kathmandu,Goswara Marg, Kalikasthan-32 - Metro
+FM],[Frequency :[94.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7013],[Longitude:85.3258],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]187],
+[0B0E7084240000BD;,[[[27.7258,85.32240000000002]]],[[Organisation:Image
+Channel],[[Title:Kathmandu, Panipokhari - Image
+Channel],[Latitude:27.7258],[Longitude:85.3224],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]188],
+[0B0E7084240000BE;,[[[27.7057,85.3248]]],[[Organisation:Mero
+FM],[[Title:Kathmandu, Dillibazar - Mero FM],[Frequency
+:[93.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7057],[Longitude:85.3248],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]189],
+[0B0E7084240000BF;,[[[27.6957,85.3372]]],[[Organisation:Himalayan
+Television],[[Title:Kathmandu, Mid Baneshwor - Himalayan
+Television],[Latitude:27.6957],[Longitude:85.3372],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]190],
+[0B0E7084240000C0;,[[[26.6941,86.4294]]],[[Organisation:Mai
+FM],[[Title:Sarlahi, Malangwa-10, Doorsanchae Tower Chowk - Mai
+FM],[Frequency :[107.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6941],[Longitude:86.4294],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]191],
+[0B0E7084240000C1;,[[[27.7018,84.4038]]],[[Organisation:Cristal
+Television],[[Title:Chitawan - Cristal
+Television],[Latitude:27.7018],[Longitude:84.4038],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]192],
+[0B0E7084240000C2;,[[[27.6105,85.5533]]],[[Organisation:Madhyapurva
+FM],[[Title:Kavre, Dulikhel Na. Pa. 2 - Madhyapurva FM],[Frequency
+:[104.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6105],[Longitude:85.5533],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]193],
+[0B0E7084240000C3;,[[[27.6943,85.3121]]],[[Organisation:Avenues
+Television],[[Title:Kathmandu, Tripureshwor - Avenue
+Television],[Latitude:27.6943],[Longitude:85.3121],[Location
+Source:infoasaid research in 2011],[TV
+Band:Satellite]]]194],
+[0B0E7084240000C4;,[[[28.197900000000004,83.9726]]],[[Organisation:Machhapuchhre
+FM],[[Title:Kaski, Pokhara - Machhapuchhre FM],[Frequency
+:[91.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1979],[Longitude:83.9726],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]195],
+[0B0E7084240000C5;,[[[27.746700000000004,85.7291]]],[[Organisation:Youth
+FM],[[Title:Sindhupalchowk, Barabise Bazaar - Youth FM],[Frequency
+:[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7467],[Longitude:85.7291],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]196],
+[0B0E7084240000C6;,[[[26.4583,87.2768]]],[[Organisation:Koshi
+FM],[[Title:Morang, Biratnagar 9 - Koshi FM],[Frequency
+:[94.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.4583],[Longitude:87.2768],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]197],
+[0B0E7084240000C7;,[[[27.7161,85.3466]]],[[Organisation:Youth
+FM],[[Title:Kathmandu, Kumarigal, Chabahil-7 - Youth
+FM],[Frequency :[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7161],[Longitude:85.3466],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]198],
+[0B0E7084240000C8;,[[[27.3547,87.2095]]],[[Organisation:Khandbari
+FM],[[Title:Sankhuwasabha, Khadbari-1, Buddha Tole - Khandbari
+FM],[Frequency :[105.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.3547],[Longitude:87.2095],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]199],
+[0B0E7084250000C9;,[[[26.912300000000002,87.3248]]],[[Organisation:Youth
+FM],[[Title:Dhankuta, Bhedetar - Youth FM],[Frequency
+:[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9123],[Longitude:87.3248],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]200],
+[0B0E7084250000CA;,[[[27.6916,85.2972]]],[[Organisation:Keeps
+Media],[[Title:Kathmandu, Kuleswor 14 - Keeps Media],[Frequency
+:[98.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6916],[Longitude:85.2972],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]201],
+[0B0E7084250000CB;,[[[28.009,81.6669]]],[[Organisation:Youth
+FM],[[Title:Banke, Dhamboji Chowk, Nepalgunj - Youth
+FM],[Frequency :[96.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.009],[Longitude:81.6669],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]202],
+[0B0E7084250000CC;,[[[28.1895,83.9616]]],[[Organisation:Kantipur
+FM],[[Title:Kaski - Kantipur FM],[Frequency
+:[101.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1895],[Longitude:83.9616],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]203],
+[0B0E7084250000CD;,[[[27.501,83.6746]]],[[Organisation:Vijaya
+FM],[[Title:Nawalparasi, Vijaynagar, Gaidakot 8 - Vijaya
+FM],[Frequency :[101.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.501],[Longitude:83.6746],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]204],
+[0B0E7084250000CE;,[[[28.0211,81.6833]]],[[Organisation:Kantipur
+FM],[[Title:Banke, Nepalgunj - Kantipur FM],[Frequency
+:[101.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0211],[Longitude:81.6833],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]205],
+[0B0E7084250000CF;,[[[26.8265,86.7178]]],[[Organisation:UK
+FM],[[Title:Udaypur, Katari-4 - UK FM],[Frequency
+:[106.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8265],[Longitude:86.7178],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]206],
+[0B0E7084250000D0;,[[[27.679700000000004,85.3109]]],[[Organisation:Ujyaalo
+90 Network (UNN)],[[Title:Lalitpur, Sanepa - Ujyalo 90
+Network],[Frequency :[90.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6797],[Longitude:85.3109],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]207],
+[0B0E7084250000D1;,[[[29.255299999999995,80.9469]]],[[Organisation:Triveni
+FM],[[Title:Doti, Nachanthuli, Dipayal Silgadi 1 - Triveni
+FM],[Frequency :[94.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.2553],[Longitude:80.9469],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]208],
+[0B0E7084250000D2;,[[[27.7168,85.3447]]],[[Organisation:Times
+FM],[[Title:Kathmandu, Chabahil, Ganeshthan - Times FM],[Frequency
+:[90.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7168],[Longitude:85.3447],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]209],
+[0B0E7084250000D3;,[[[28.4916,81.0873]]],[[Organisation:Tikapur
+FM],[[Title:kailali, Tikapur 9 - Tikapur FM],[Frequency
+:[101.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.4916],[Longitude:81.0873],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]210],
+[0B0E7084250000D4;,[[[27.686,84.342]]],[[Organisation:Synergy
+FM],[[Title:Chitawan, Bharatpur 10 - Synergy FM],[Frequency
+:[91.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.686],[Longitude:84.342],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]211],
+[0B0E7084250000D5;,[[[28.204,83.9795]]],[[Organisation:Sunaulo
+FM],[[Title:Kaski, Chipledhunga, Pokhara-4 - Sunaulo
+FM],[Frequency :[102.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.204],[Longitude:83.9795],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]212],
+[0B0E7084250000D6;,[[[26.8461,87.3056]]],[[Organisation:Star
+FM],[[Title:Sunsari, Dharan 10 - Star FM],[Frequency
+:[95.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8461],[Longitude:87.3056],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]213],
+[0B0E7084250000D7;,[[[27.4742,86.5201]]],[[Organisation:Solu
+FM],[[Title:Solukhumbhu, Dorpu Bazar, Salleri-7 - Solu
+FM],[Frequency :[101.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.4742],[Longitude:86.5201],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]214],
+[0B0E7084260000D8;,[[[28.745999999999995,80.5875]]],[[Organisation:Sita
+Sanchar Samuha],[[Title:Kailali - Sita Sanchar Samuha],[Frequency
+:[105.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.746],[Longitude:80.5875],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]215],
+[0B0E7084260000D9;,[[[27.1618,87.74510000000001]]],[[Organisation:Simhalila
+FM],[[Title:Panchthar - Phidim 1 - Simhalila FM],[Frequency
+:[97.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.1618],[Longitude:87.7451],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]216],
+[0B0E7084260000DA;,[[[28.969700000000003,80.2222]]],[[Organisation:Shuklafanta
+FM],[[Title:Kanchanpur, Bhimdatta NP, Vashi VDC, Mahendranagar-1 - Shuklafanta
+FM],[Frequency :[99.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.9697],[Longitude:80.2222],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]217],
+[0B0E7084260000DB;,[[[27.9192,84.8749]]],[[Organisation:Shree
+Sahid Smriti Sanchar Sahakari Sanstha Limited],[[Title:Dhading - Shree Sahid Smriti
+Sanchar Sahakari Sanstha Limited],[Frequency :[97.6],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.9192],[Longitude:84.8749],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]218],
+[0B0E7084260000DC;,[[[26.646200000000004,87.9977]]],[[Organisation:Seemana
+FM],[[Title:Jhapa, Gaunbikash Danda, Mechinagar-10 - Seemana
+FM],[Frequency :[106.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6462],[Longitude:87.9977],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]219],
+[0B0E7084260000DD;,[[[28.2391,83.6005]]],[[Organisation:Sayapatri
+FM],[[Title:Baglung Municipality 2 - Sayapatri FM],[Frequency
+:[91.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2391],[Longitude:83.6005],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]220],
+[0B0E7084260000DE;,[[[27.6714,84.4162]]],[[Organisation:Sasaktikaran
+ka lagi Anusandhak],[[Title:Chitawan, Bharatpur Na. Pa. 7 - Sasaktikaran ka lagi
+Anusandhak],[Frequency :[105.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6714],[Longitude:84.4162],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]221],
+[0B0E7084260000DF;,[[[26.6413,87.9909]]],[[Organisation:Saptarangi
+FM],[[Title:Jhapa, Thana Road, Damak 11 - Saptarangi
+FM],[Frequency :[101.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6413],[Longitude:87.9909],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]222],
+[0B0E7084260000E0;,[[[26.4607,87.285]]],[[],[[Title:Morang,
+Aaitebare - Saptakoshi FM],[Frequency :[105.6],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:26.4607],[Longitude:87.285],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]223],
+[0B0E7084260000E1;,[[[26.9466,87.951]]],[[Organisation:Sandakpur
+FM],[[Title:Ilam - Sandakpur FM],[Frequency
+:[104.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9466],[Longitude:87.951],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]224],
+[0B0E7084260000E2;,[[[28.0138,83.27360000000002]]],[[Organisation:Samudayik
+Radio Sky FM],[[Title:Gulmi, Buspark, Tamghash-4 - Samudayik Radio Sky
+FM],[Frequency :[88.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0138],[Longitude:83.2736],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]225],
+[0B0E7084260000E3;,[[[29.251100000000005,80.9442]]],[[Organisation:Samudayik
+Radio Shaileshwari FM],[[Title:Doti, Dipayal Silgadi-12 - Samudayik Radio Shaileshwari
+FM],[Frequency :[105.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.2511],[Longitude:80.9442],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]226],
+[0B0E7084260000E4;,[[[27.8731,83.562]]],[[Organisation:Samudayik
+Radio Rampur],[[Title:Palpa, Rampur Village Development committee 7 - Samudayik Radio
+Rampur],[Frequency :[103.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.8731],[Longitude:83.562],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]227],
+[0B0E7084270000E5;,[[[27.8706,83.5648]]],[[Organisation:Community
+Radio Madanpokhara (CRM)],[[Title:Palpa, Madan Pokhara 9 - Samudayik Radio Madan
+Pokhara],[Frequency :[106.9],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.8706],[Longitude:83.5648],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]228],
+[0B0E7084270000E6;,[[[27.9889,83.0532]]],[[Organisation:Samudayik
+Radio Deurali],[[Title:Arghakhanchi, Khana 4 Jalkanda - Samudayik Radio
+Deurali],[Frequency :[101.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9889],[Longitude:83.0532],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]229],
+[0B0E7084270000E7;,[[[27.5472,83.0539]]],[[Organisation:Samudayik
+Radio Buddha Aawaj],[[Title:Kapilvastu, Bairaya, Banganga-8 - Samudayik Radio Buddha
+Aawaj],[Frequency :[89.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.5472],[Longitude:83.0539],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]230],
+[0B0E7084270000E8;,[[[26.5541,87.182]]],[[Organisation:Sajha
+Radio],[[Title:Morang - - Sajha Radio],[Frequency
+:[104.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.5541],[Longitude:87.182],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]231],
+[0B0E7084270000EA;,[[[27.2363,86.7329]]],[[Organisation:Rupakot
+Radio],[[Title:Khotang, Mude, Diktel-6 - Rupakot Radio],[Frequency
+:[105.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.2363],[Longitude:86.7329],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]232],
+[0B0E7084270000EB;,[[[28.1347083,85.342129]]],[],[],3,[[Organisation:Rasuwa
+FM],[[Title:Rasuwa - Rasuwa FM],[Frequency
+:[102.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1347083],[Longitude:85.342129],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:07/05/2015],[Assessed Damage:Back online with larger
+transmitter],[Power:100w],[Power Source:infoasaid
+research in 2011],[Radio
+Band:FM]]]233],
+[0B0E7084270000EC;,[[[27.3376,86.4981]]],[[Organisation:Ramailo
+Community Radio],[[Title:Okhaldhunga 6, Birendra Park - Ramailo Community
+Radio],[Frequency :[100.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.3376],[Longitude:86.4981],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]234],
+[0B0E7084270000ED;,[[[27.739900000000002,85.3379]]],[[Organisation:Rajdhani
+FM],[[Title:Kathmandu - Annapurna Marg, Maharajgunj-4, Kathmandu - Rajdhani
+FM],[Frequency :[100.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7399],[Longitude:85.3379],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]235],
+[0B0E7084270000EE;,[[[28.009,81.6586]]],[[Organisation:Radio
+Xpress FM],[[Title:Banke, Shivamarg 12, Nepalgunj - Radio Xpress
+FM],[Frequency :[88.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.009],[Longitude:81.6586],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]236],
+[0B0E7084270000EF;,[[[29.245899999999995,81.2189]]],[[Organisation:Radio
+Vaijnath FM],[[Title:Achhaam, Chandika Village Development Committee 6 - Radio Vaijnath
+FM],[Frequency :[88.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.2459],[Longitude:81.2189],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]237],
+[0B0E7084270000F0;,[[[26.8461,86.7178]]],[[Organisation:Radio
+Udayapur],[[Title:Udaypur, Triuga, Nawa Ydaya Tole-16 - Radio
+Udayapur],[Frequency :[102.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.8461],[Longitude:86.7178],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]238],
+[0B0E7084270000F1;,[[[26.781200000000002,86.6725]]],[[Organisation:Radio
+Triyuga],[[Title:Udaypur, Triyuga-2, Gaighat - Radio
+Triyuga],[Frequency :[104.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.7812],[Longitude:86.6725],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]239],
+[0B0E7084270000F2;,[[[27.8973,84.8859]]],[],[],3,[[Organisation:Radio
+Trishuli],[[Title:Dhading, Puchhar Bazaar, Nilkantha Village Development Committee 5 -
+Radio Trishuli],[Frequency :[105.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.8973],[Longitude:84.8859],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:UPS not functioning
+properly],[Power:30w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]240],
+[0B0E7084280000F3;,[[[27.4254,86.0834]]],[[Organisation:Radio
+Tinlal],[[Title:Ramechhap, Manthali Bazaar-4 - Radio
+Tinlal],[Frequency :[88.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.4254],[Longitude:86.0834],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]241],
+[0B0E7084280000F4;,[[[27.0261,84.8982]]],[[Organisation:Radio
+Tarang],[[Title:Parsa, Bauhari, Ramgadawa-2 - Radio
+Tarang],[Frequency :[107.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.0261],[Longitude:84.8982],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]242],
+[0B0E7084280000F5;,[[[28.0211,84.1278]]],[[Organisation:Radio
+Tanahun],[[Title:Tanahu, Dulegaunda-9, Khairenitar - Radio
+Tanahun],[Frequency :[97.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0211],[Longitude:84.1278],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]243],
+[0B0E7084280000F6;,[[[28.1519,83.8779]]],[[Organisation:Radio
+Syangja],[[Title:Syangja, Putalibajar Nagarpalika, Syangja Chowk-1 - Radio
+Syangja],[Frequency :[89.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1519],[Longitude:83.8779],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]244],
+[0B0E7084280000F7;,[[[26.4669,87.2946]]],[[Organisation:Radio
+Suseli FM],[[Title:Morang, Indrapur-3, Birat Chowk - Radio Suseli
+FM],[Frequency :[106.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.4669],[Longitude:87.2946],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]245],
+[0B0E7084280000F8;,[[[26.646200000000004,87.99360000000001]]],[[Organisation:Radio
+Sunrise],[[Title:Jhapa, Bhadrapur Road, Urbashichowk, Anarmani-4 - Radio
+Sunrise],[Frequency :[105.9],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.6462],[Longitude:87.9936],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]246],
+[0B0E7084280000F9;,[[[26.462,87.2905]]],[[Organisation:Radio
+Sunakhari],[[Title:Morang, Bhaudaha, Itahara-3 - Radio
+Sunakhari],[Frequency :[102.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.462],[Longitude:87.2905],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]247],
+[0B0E7084280000FA;,[[[28.6207,82.4606]]],[[Organisation:Radio
+Sisne],[[Title:Rukum, Musikot, Khalanga-1 - Radio
+Sisne],[Frequency :[92.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.6207],[Longitude:82.4606],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]248],
+[0B0E7084280000FB;,[[[27.7012,85.3238]]],[[Organisation:Gorkha
+FM],[[Title:Kathmandu, Anamnagar-32 - Gorkha FM],[Frequency
+:[93.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7012],[Longitude:85.3238],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]249],
+[0B0E7084280000FC;,[[[27.7881,85.7126]]],[],[],2,[[Organisation:Radio
+Sindhu],[[Title:Sindhupakchok, Melamchi 2 - Radio
+Sindhu],[Frequency :[105.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.7881],[Longitude:85.7126],[Location
+Source:infoasaid research in 2011],[On Air:Unknown],[Last
+Updated:06/05/2015],[Assessed Damage:Transmitter working, does not have power
+backup. Building collapsed. Transmitter not immediately retrievable; accoustic equipment damaged, building could collapse so
+people not able to enter],[Recommendations:Alternative antenna - two bay; temporary shed for
+broadcast, Telephone hybrids-2: UPS and battery],[Next Steps:Antenna-options; Shed
+construction; telephone hybrids; power back-up for 2 hours; Organise on-site coaching/mentoring with whatever locally available
+equipment support is available. Liaise with OCHA on relief supplies and possible support such as tents, and technical support
+from the comms. Team, if needed.BBC MA could have some used computer that could be given to stations in
+need],[Power:100w],[Power Source:infoasaid research in
+2011],[Radio Band:FM],[Comments:1. Telephone hybrid; food
+supplies for a week (short term); power back up min 2 hours; explore borrowing antenna and place order for new one;
+Orientation/coaching on post-disaste programmingr; GI pipe and shed/tent; loan generator. The old antenna if replacedcould be the
+property of ACORAB for use in similar situations in the
+future]]]250],
+[0B0E7084280000FD;,[[[27.616600000000002,85.5545]]],[[Organisation:Radio
+Shepherd],[[Title:Kavre, Dhulikhel-5, Chwache - Radio
+Shepherd],[Frequency :[88.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6166],[Longitude:85.5545],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]251],
+[0B0E7084280000FE;,[[[27.9653,84.6085]]],[[Organisation:Gorakhkali
+FM],[[Title:Gorkha - Gorakhkali FM],[Frequency
+:[103.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.9653],[Longitude:84.6085],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]252],
+[0B0E7084280000FF;,[[[27.673200000000005,85.3119]]],[[Organisation:Radio
+Kantipur],[[Title:Lalitpur, Pulchowk - Radio Kantipur],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6732],[Longitude:85.3119],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]253],
+[0B0E708428000100;,[[[29.8287,80.527]]],[[Organisation:Radio
+Kalapani],[[Title:Darchula, Kalanga Village Development Committee 5 - Radio
+Kalapani],[Frequency :[102.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.8287],[Longitude:80.527],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]254],
+[0B0E708429000101;,[[[28.760400000000004,80.5902]]],[[Organisation:Radio
+Kailali FM],[[Title:Kailali - Radio Kailali FM],[Frequency
+:[103.7],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7604],[Longitude:80.5902],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]255],
+[0B0E708429000102;,[[[28.0417,82.4881]]],[[Organisation:Radio
+Jharana],[[Title:Dang, Tulsipur Chowk, Ghorahi-11 - Radio
+Jharana],[Frequency :[88.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0417],[Longitude:82.4881],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]256],
+[0B0E708429000103;,[[[26.7211,85.9268]]],[[Organisation:Radio
+Janakpur],[[Title:Dhanusha, Pidari Chowk, Janakpur 8 - Radio
+Janakpur],[Frequency :[97.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.7211],[Longitude:85.9268],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]257],
+[0B0E708429000104;,[[[28.3237,82.6282]]],[[Organisation:Radio
+Jaljala],[[Title:Rolpa, Liwang 6 - Radio Jaljala],[Frequency
+:[104.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.3237],[Longitude:82.6282],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]258],
+[0B0E708429000105;,[[[27.6178,83.4659]]],[[Organisation:Radio
+Jagaran],[[Title:Rupandehi, Butwal-11 Kalikanagar - Radio
+Jagaran],[Frequency :[93.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6178],[Longitude:83.4659],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]259],
+[0B0E708429000106;,[[[27.8779,82.5142]]],[[Organisation:Radio
+Highway],[[Title:Dang, Chailahi-2, Lamahi Bazzar - Radio
+Highway],[Frequency :[103.5],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.8779],[Longitude:82.5142],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]260],
+[0B0E708429000107;,[[[28.1313,82.3]]],[[Organisation:Radio
+Hamro Pahuch],[[Title:Dang, Ghorahi Raod, Tulsipur 5 - Radio Hamro
+Pahuch],[Frequency :[89.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1313],[Longitude:82.3],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]261],
+[0B0E708429000108;,[[[26.6646,85.7854]]],[[Organisation:Radio
+Gunjan],[[Title:Mahottari - Radio Gunjan],[Frequency
+:[103.7],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6646],[Longitude:85.7854],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]262],
+[0B0E708429000109;,[[[27.9726,84.5673]]],[],[],3,[[Organisation:Radio
+Gorkha],[[Title:Gorkha, Sati Peepal Maidan, Gorkha Nagarpalika-4 - Radio
+Gorkha],[Frequency :[92.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.9726],[Longitude:84.5673],[Location
+Source:infoasaid research in 2011],[On Air:On
+air],[Assessed Damage:Broadcasting from tent, building collapsed, solar damaged, studio
+damaged, tower tilted ],[Recommendations:Tent, whatever equipment is locally
+available],[Power:500w],[Power Source:infoasaid research
+in 2011],[Radio
+Band:FM]]]263],
+[0B0E70842900010A;,[[[28.0393,82.4826]]],[[Organisation:Radio
+Ganatantra Rapti],[[Title:Dang, Gorahi-11, Tulsipur Chowk - Radio Ganatantra
+Rapti],[Frequency :[95.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0393],[Longitude:82.4826],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]264],
+[0B0E70842900010B;,[[[27.5424,86.6135]]],[[Organisation:Radio
+Everest],[[Title:Solukhumbu - Radio Everest],[Frequency
+:[105.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.5424],[Longitude:86.6135],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]265],
+[0B0E70842900010C;,[[[27.457100000000004,86.5366]]],[[Organisation:Radio
+Dudhkoshi],[[Title:Solukhumbu, Salleri 5 - Radio
+Dudhkoshi],[Frequency :[94.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.4571],[Longitude:86.5366],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]266],
+[0B0E70842900010D;,[[[28.813400000000005,80.55310000000001]]],[[Organisation:Godavari
+FM],[[Title:Kailali, Malakheti-7, Attariya - Godavari
+FM],[Frequency :[87.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.8134],[Longitude:80.5531],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]267],
+[0B0E70842900010E;,[[[26.6303,87.9373]]],[[Organisation:Radio
+Saragam],[[Title:Jhapa - Radio Saragam],[Frequency
+:[88.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6303],[Longitude:87.9373],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]268],
+[0B0E70842900010F;,[[[28.813400000000005,80.5463]]],[[Organisation:Ghodaghodi
+FM],[[Title:Kailali, Geta-3, Attariya , Mahendranagar Road - Ghodaghodi
+FM],[Frequency :[91.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.8134],[Longitude:80.5463],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]269],
+[0B0E70842A000110;,[[[29.54,80.4749]]],[[Organisation:Radio
+Sansher],[[Title:Baitadi - Radio Sansher],[Frequency
+:[106.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.54],[Longitude:80.4749],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]270],
+[0B0E70842A000111;,[[[26.8412,87.2919]]],[[Organisation:Ganatantra
+FM],[[Title:Sunsari, Kalyanchowk, Dharan-11 - Ganatantra
+FM],[Frequency :[95.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8412],[Longitude:87.2919],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]271],
+[0B0E70842A000112;,[[[28.6038,82.4496]]],[[Organisation:Radio
+Sani Bheri],[[Title:Rukum - Manma 8 - Radio Sani Bheri],[Frequency
+:[89.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6038],[Longitude:82.4496],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]272],
+[0B0E70842A000113;,[[[27.0249,84.8831]]],[[Organisation:Gadimai
+FM],[[Title:Parsa, Panityanki, Birgunj 10 - Gadimai FM],[Frequency
+:[91.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0249],[Longitude:84.8831],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]273],
+[0B0E70842A000114;,[[[27.5351,83.0566]]],[[Organisation:Radio
+Samanata],[[Title:Kapilvastu - Virpur 9 - Radio
+Samanata],[Frequency :[105.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.5351],[Longitude:83.0566],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]274],
+[0B0E70842A000115;,[[[28.4856,81.0832]]],[[Organisation:Fulbari
+FM],[[Title:Kailali, Phoolbari Tole, Tikapur-9 - Fulbari
+FM],[Frequency :[93.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.4856],[Longitude:81.0832],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]275],
+[0B0E70842A000116;,[[[27.6689,83.4796]]],[[Organisation:Radio
+Samabesi],[[Title:Rupandehi, Butwal-11, Chauraha - Radio
+Samabesi],[Frequency :[105.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6689],[Longitude:83.4796],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]276],
+[0B0E70842A000117;,[[[28.2584,81.3057]]],[[Organisation:Fulbari
+FM],[[Title:Bardiya, Santoshi Tole, Gulariya 6 - Fulbari
+FM],[Frequency :[100.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2584],[Longitude:81.3057],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]277],
+[0B0E70842A000118;,[[[26.6695,86.424]]],[[Organisation:Radio
+Salhesh],[[Title:Siraha, Bhalwahi Chowk - Radio
+Salhesh],[Frequency :[88.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6695],[Longitude:86.424],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]278],
+[0B0E70842A000119;,[[[26.7088,86.4459]]],[[Organisation:Fulbari
+Community Radio],[[Title:Siraha, Grameen Chowk, Grameen-10, Lahan - Fulbari Community
+Radio],[Frequency :[105.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.7088],[Longitude:86.4459],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]279],
+[0B0E70842A00011A;,[[[27.3766,85.9323]]],[[Organisation:Radio
+Sahara],[[Title:Sindhuli, Sikhar Tole-6 - Radio Sahara],[Frequency
+:[104.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.3766],[Longitude:85.9323],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]280],
+[0B0E70842A00011B;,[[[26.6303,88.0005]]],[[Organisation:FM
+Mechi Tunes],[[Title:Jhapa, Ittabhatta, Mechinagar 12 - FM Mechi
+Tunes],[Frequency :[96.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6303],[Longitude:88.0005],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]281],
+[0B0E70842A00011C;,[[[28.164,83.866]]],[[Organisation:Radio
+Safalta],[[Title:Kaski - Radio Safalta],[Frequency
+:[103.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.164],[Longitude:83.866],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]282],
+[0B0E70842A00011D;,[[[27.7106,85.32500000000002]]],[[Organisation:FM
+Adhyatmajyoti],[[Title:Kathmandu, Dillibazar-33, Charkhal Marga - FM
+Adhyatmajyoti],[Frequency :[104.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.7106],[Longitude:85.325],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]283],
+[0B0E70842A00011E;,[[[28.0162,81.6559]]],[[Organisation:Radio
+Rubaru],[[Title:Banke, Nepalgunj 5, Ghositole - Radio
+Rubaru],[Frequency :[104.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.0162],[Longitude:81.6559],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]284],
+[0B0E70842B00011F;,[[[29.993,81.8509]]],[[Organisation:Ekikrit
+Samudayik Vikash Tatha Anusandhan Kendra],[[Title:Humla - Ekikrit Samudayik Vikash
+Tatha Anusandhan Kendra],[Frequency :[94.2],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:29.993],[Longitude:81.8509],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]285],
+[0B0E70842B000120;,[[[28.0283,83.2571]]],[[Organisation:Radio
+Resunga],[[Title:Gulmi, Tamaghas - Radio Resunga],[Frequency
+:[106.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0283],[Longitude:83.2571],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]286],
+[0B0E70842B000121;,[[[26.7934,85.2924]]],[[Organisation:Ekikrit
+Gramin Vikash Kendra Nepal],[[Title:Rautahat - Ekikrit Gramin Vikash Kendra
+Nepal],[Frequency :[102.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.7934],[Longitude:85.2924],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]287],
+[0B0E70842B000122;,[[[29.552000000000003,82.2299]]],[[Organisation:Radio
+Rara],[[Title:Mugu, Ghamgadhi-5, Shreenagar - Radio
+Rara],[Frequency :[107.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.552],[Longitude:82.2299],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]288],
+[0B0E70842B000123;,[[[27.13,87.6929]]],[[Organisation:Eagle
+FM],[[Title:Panchthar, Lakkhan Marg, Phidim-1 - Eagle
+FM],[Frequency :[99.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.13],[Longitude:87.6929],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]289],
+[0B0E70842B000124;,[[[28.1071,82.8658]]],[[Organisation:Radio
+Pyuthan],[[Title:Pyuthan, Khalanga - 9, Radio Line Budachaur - Radio
+Pyuthan],[Frequency :[92.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1071],[Longitude:82.8658],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]290],
+[0B0E70842B000125;,[[[27.6543,85.1042]]],[[Organisation:Radio
+Pratidhwani],[[Title:Makwanpur, Daman 7 - Radio
+Pratidhwani],[Frequency :[97.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6543],[Longitude:85.1042],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]291],
+[0B0E70842B000126;,[[[28.1374,82.2945]]],[[Organisation:Radio
+Prakriti],[[Title:Dang, Tulsipur Nagarpalika-6, Salyan Road - Radio
+Prakriti],[Frequency :[93.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1374],[Longitude:82.2945],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]292],
+[0B0E70842B000127;,[[[26.6597,87.2946]]],[[Organisation:Radio
+Pariwartan],[[Title:Sunsari, Itahari-5, Pachrukhi - Radio
+Pariwartan],[Coverage:Sunsari, Morang, Jhapa],[Frequency
+:[89.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6597],[Longitude:87.2946],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM],[Range:40km to
+60km]]]293],
+[0B0E70842B000128;,[[[27.5131,83.6472]]],[[Organisation:Radio
+Parasi],[[Title:Nawalparasi, Ramgram 3 - Radio Parasi],[Frequency
+:[90.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.5131],[Longitude:83.6472],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]294],
+[0B0E70842B000129;,[[[27.6324,85.0919]]],[[Organisation:Radio
+Palung],[[Title:Makwanpur, Angare-4, Palung - Radio
+Palung],[Frequency :[107.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6324],[Longitude:85.0919],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]295],
+[0B0E70842B00012A;,[[[26.7971,85.27310000000001]]],[[Organisation:Radio
+Nunthar FM],[[Title:Rautahat, Chandrahanigahapur-1 - Radio Nunthar
+FM],[Frequency :[102.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7971],[Longitude:85.2731],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]296],
+[0B0E70842B00012B;,[[[27.0371,84.90510000000002]]],[[Organisation:Radio
+Nepal],[[Title:Parsa, Birgunj - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0371],[Longitude:84.9051],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]297],
+[0B0E70842B00012C;,[[[28.813400000000005,83.7735]]],[[Organisation:Radio
+Nepal],[[Title:Mustang, Jomsom - Radio Nepal],[Frequency
+:[103.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.8134],[Longitude:83.7735],[Location
+Source:infoasaid research in 2011],[Power:10w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]298],
+[0B0E70842B00012D;,[[[27.4205,85.02590000000001]]],[[Organisation:Radio
+Nepal],[[Title:Makwanpur, Hetauda - Radio Nepal],[Frequency
+:[98.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.4205],[Longitude:85.0259],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]299],
+[0B0E70842C00012E;,[[[27.7314,85.3495]]],[[Organisation:CJMC
+Community FM],[[Title:Kathmandu, Dhumbarahi, Mandikhatar-4 - CJMC Community
+FM],[Frequency :[106.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7314],[Longitude:85.3495],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]300],
+[0B0E70842C00012F;,[[[29.1378,81.6064]]],[[Organisation:Radio
+Nepal],[[Title:Kalikot, Manma - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.1378],[Longitude:81.6064],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]301],
+[0B0E70842C000130;,[[[27.7398,85.3379]]],[[Organisation:Citizen
+FM],[[Title:Kathmandu, Maharajgunj Chakrapath - Citizen
+FM],[Frequency :[94.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.7398],[Longitude:85.3379],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]302],
+[0B0E70842C000131;,[[[29.272,82.16130000000001]]],[[Organisation:Radio
+Nepal],[[Title:Jumla, Khalanga - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.272],[Longitude:82.1613],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]303],
+[0B0E70842C000132;,[[[27.7006,86.0065]]],[[Organisation:Chyomongmo
+Media Pvt. Ltd.],[[Title:Dolakha - Jiri VDC 1 - Chyomongmo Media Pvt.
+Ltd.],[Frequency :[108.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.7006],[Longitude:86.0065],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]304],
+[0B0E70842C000133;,[[[29.9645,81.7932]]],[[Organisation:Radio
+Nepal],[[Title:Humla, Simikot - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.9645],[Longitude:81.7932],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]305],
+[0B0E70842C000134;,[[[27.693000000000005,85.3299]]],[[Organisation:Capital
+FM],[[Title:Kathmandu, Saraswati Marg, Thapa Gau-34 - Capital
+FM],[Frequency :[92.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.693],[Longitude:85.3299],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]306],
+[0B0E70842C000135;,[[[28.964899999999997,82.9028]]],[[Organisation:Radio
+Nepal],[[Title:Dolpa, Juphal - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.9649],[Longitude:82.9028],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]307],
+[0B0E70842C000136;,[[[29.8549,80.5682]]],[[Organisation:Radio
+Nepal],[[Title:Darchula - Radio Nepal],[Frequency
+:[98.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.8549],[Longitude:80.5682],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]308],
+[0B0E70842C000137;,[[[27.6568,83.4576]]],[[Organisation:Butwal
+FM],[[Title:Rupandehi, Kalikanagar, Butwal-12 - Butwal
+FM],[Frequency :[94.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6568],[Longitude:83.4576],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]309],
+[0B0E70842C000138;,[[[28.1447,82.3041]]],[[Organisation:Radio
+Nepal],[[Title:Dang, Bijaura - Radio Nepal],[Frequency
+:[98.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1447],[Longitude:82.3041],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]310],
+[0B0E70842C000139;,[[[27.6811,84.4162]]],[[Organisation:Radio
+Nepal],[[Title:Chitawan, Bhartpur - Radio Nepal],[Frequency
+:[103.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6811],[Longitude:84.4162],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]311],
+[0B0E70842C00013A;,[[[28.6135,81.6312]]],[[Organisation:Bulbule
+FM],[[Title:Surkhet, New Road, Birendranagar 6 - Bulbule
+FM],[Frequency :[103.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6135],[Longitude:81.6312],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]312],
+[0B0E70842C00013B;,[[[29.554299999999998,81.1615]]],[[Organisation:Radio
+Nepal],[[Title:Bajhang - Radio Nepal],[Frequency
+:[98.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.5543],[Longitude:81.1615],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]313],
+[0B0E70842C00013C;,[[[28.2657,82.3096]]],[[Organisation:Radio
+Naya Yug],[[Title:Dang - Radio Naya Yug],[Frequency
+:[107.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2657],[Longitude:82.3096],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]314],
+[0B0E70842D00013D;,[[[26.6266,87.99360000000001]]],[[Organisation:Birta
+FM],[[Title:Jhapa, Aanarmani 3, Birtamod 3 - Birta FM],[Frequency
+:[105.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6266],[Longitude:87.9936],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]315],
+[0B0E70842D00013E;,[[[27.6008,85.4874]]],[[Organisation:Radio
+Naya Sandesh],[[Title:Kavre, Panauti 10 - Radio Naya
+Sandesh],[Frequency :[104.5],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6008],[Longitude:85.4874],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]316],
+[0B0E70842D00013F;,[[[27.0114,84.8749]]],[[Organisation:Birgunj
+Musical FM],[[Title:Parsa, Murli Bagainchha-15, Birgunj - Birgunj Musical
+FM],[Frequency :[105.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0114],[Longitude:84.8749],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]317],
+[0B0E70842D000140;,[[[29.824000000000005,80.5229]]],[[Organisation:Radio
+Naya Nepal],[[Title:Darchula, Malikarjun-8 Premnagar - Radio Naya
+Nepal],[Frequency :[104.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.824],[Longitude:80.5229],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]318],
+[0B0E70842D000141;,[[[29.0033,81.7987]]],[[Organisation:Radio
+Naya Karnali],[[Title:Kalikot, Manma 5 - Radio Naya
+Karnali],[Frequency :[102.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.0033],[Longitude:81.7987],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]319],
+[0B0E70842D000142;,[[[28.2137,83.974]]],[[Organisation:Big
+FM],[[Title:Kaski, New Road-8, Pokhara - Big FM],[Frequency
+:[101.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2137],[Longitude:83.974],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]320],
+[0B0E70842D000143;,[[[27.6171,85.5569]]],[],[],3,[[Organisation:Radio
+Namobuddha],[[Title:Kavre, Sarsyakharkha Village Development Committee 4 - Radio
+Namobuddha],[Frequency :[106.7],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6171],[Longitude:85.5569],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:Broadcasting from 2nd day. Have solar
+system for power; Tower bent could be affected by strong winds; not doing field stories for lack of
+transport/fuel],[Recommendations:Have not been able to do field
+reporting],[Next Steps:Maintain tower and
+antenna],[Power:100w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]321],
+[0B0E70842D000144;,[[[27.6422,83.4686]]],[[Organisation:Radio
+Namaste],[[Title:Rupandehi,Butwal-12, Kalika Nagar - Radio
+Namaste],[Frequency :[92.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6422],[Longitude:83.4686],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]322],
+[0B0E70842D000145;,[[[26.6008,86.7233]]],[[Organisation:Bhorukawa],[[Title:Saptari,
+Rajdevi Road, Rajbiraj 4 - Bhorukawa],[Frequency :[92.8],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:26.6008],[Longitude:86.7233],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]323],
+[0B0E70842D000146;,[[[28.4156,83.4906]]],[[Organisation:Radio
+Myagdi],[[Title:Myagdi, Pulachaur Village Development Committee 1 - Radio
+Myagdi],[Frequency :[104.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.4156],[Longitude:83.4906],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]324],
+[0B0E70842D000147;,[[[27.6689,83.4604]]],[[Organisation:Radio
+Mukti],[[Title:Rupandehi, Laxminagar, Butwal-6 - Radio
+Mukti],[Frequency :[95.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6689],[Longitude:83.4604],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]325],
+[0B0E70842D000148;,[[[27.0163,84.879]]],[[Organisation:Bhojpuriya
+FM],[[Title:Parsa, Pragatinagar, Birgunj-3 - Bhojpuriya
+FM],[Frequency :[92.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0163],[Longitude:84.879],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]326],
+[0B0E70842D000149;,[[[29.5758,82.2437]]],[[Organisation:Radio
+Mugu],[[Title:Mugu, Gamgadhi, Shreenagar-5 - Radio
+Mugu],[Frequency :[107.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:29.5758],[Longitude:82.2437],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]327],
+[0B0E70842D00014A;,[[[27.369000000000003,85.9268]]],[[Organisation:Radio
+Mithila],[[Title:Dhanusha, Bhanu Chowk, Janakpur 1 - Radio
+Mithila],[Frequency :[100.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.369],[Longitude:85.9268],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]328],
+[0B0E70842D00014B;,[[[28.0453,81.6586]]],[[Organisation:Bheri
+FM],[[Title:Banke, Shantipath, Nepalgunj 17 - Bheri FM],[Frequency
+:[105.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.0453],[Longitude:81.6586],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]329],
+[0B0E70842E00014C;,[[[27.7021,85.3236]]],[[Organisation:Radio
+Mirmire],[[Title:Kathmandu, Anam Nagar 32 - Radio
+Mirmire],[Frequency :[89.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.7021],[Longitude:85.3236],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]330],
+[0B0E70842E00014D;,[[[27.3303,87.616]]],[[Organisation:Radio
+Menchhyayam],[[Title:Tehrathum, Menchhayam Mangloong Village Development Committee 1 -
+Radio Menchhyayam],[Frequency :[102.6],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.3303],[Longitude:87.616],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]331],
+[0B0E70842E00014E;,[[[27.6705,85.4331]]],[[Organisation:Bhaktapur
+FM],[[Title:Bhaktapur 15, Itachen - Bhaktapur FM],[Frequency
+:[105.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6705],[Longitude:85.4331],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]332],
+[0B0E70842E00014F;,[[[27.6264,85.5203]]],[[Organisation:Radio
+Masti],[[Title:Kavre - Radio Masti],[Frequency
+:[87.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6264],[Longitude:85.5203],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]333],
+[0B0E70842E000150;,[[[28.2282,84.3736]]],[[Organisation:Radio
+Marsyangdi],[[Title:Lamjung, Triveni Tole, Besi Sahar 2 - Radio
+Marsyangdi],[Frequency :[95.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.2282],[Longitude:84.3736],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]334],
+[0B0E70842E000151;,[[[27.669,85.317]]],[[Organisation:BFBS],[[Title:Lalitpur,
+Manbahvan - BFBS],[Frequency :[105.7],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:27.669],[Longitude:85.317],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]335],
+[0B0E70842E000152;,[[[28.1192,82.874]]],[[Organisation:Radio
+Mandavi],[[Title:Pyuthan, Khalanga-5, Malla Rani - Radio
+Mandavi],[Frequency :[97.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1192],[Longitude:82.874],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]336],
+[0B0E70842E000153;,[[[27.9726,84.5728]]],[[Organisation:Radio
+Manaslu],[[Title:Gorkha 1, Aale Bhanjyang, Aale-7 - Radio
+Manaslu],[Frequency :[103.9],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9726],[Longitude:84.5728],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]337],
+[0B0E70842E000154;,[[[28.205200000000005,83.6362]]],[[Organisation:Baglung
+FM],[[Title:Baglung 2, Majhkot - Baglung FM],[Frequency
+:[96.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2052],[Longitude:83.6362],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]338],
+[0B0E70842E000155;,[[[27.9653,84.5786]]],[[Organisation:Radio
+Manakamana],[[Title:Gorkha, Manakamana Village Develop Committee -3 - Radio
+Manakamana],[Frequency :[102.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9653],[Longitude:84.5786],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]339],
+[0B0E70842E000156;,[[[27.518,83.4604]]],[[Organisation:Radio
+Malmala],[[Title:Rupandehi - Radio Malmala],[Frequency
+:[88.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.518],[Longitude:83.4604],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]340],
+[0B0E70842E000157;,[[[26.462,87.3029]]],[[Organisation:B
+FM],[[Title:Morang, Shanti Chowk, Biratnagar-7 - B FM],[Frequency
+:[91.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.462],[Longitude:87.3029],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]341],
+[0B0E70842E000158;,[[[27.423,85.0314]]],[[Organisation:Radio
+Makwanpur],[[Title:Makwanpur, Makwanpur Chowk, Hetauda-4 - Radio
+Makwanpur],[Frequency :[101.3],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.423],[Longitude:85.0314],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]342],
+[0B0E70842E000159;,[[[26.4583,87.2713]]],[[Organisation:Radio
+Makalu],[[Title:Morang, Hatkhola, Biratnagar-11 - Radio
+Makalu],[Frequency :[102.1],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.4583],[Longitude:87.2713],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]343],
+[0B0E70842E00015A;,[[[28.791700000000002,82.1942]]],[[Organisation:Asal
+Sashan Jilla Samnwaya Samiti],[[Title:Jajarkot - Asal Sashan Jilla Samnwaya
+Samiti],[Frequency :[97.9],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.7917],[Longitude:82.1942],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]344],
+[0B0E70842F00015B;,[[[26.9918,87.3372]]],[[Organisation:Radio
+Makalu],[[Title:Dhankuta 7, Dadagaun - Radio Makalu],[Frequency
+:[92.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9918],[Longitude:87.3372],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]345],
+[0B0E70842F00015C;,[[[28.1011,82.8452]]],[[Organisation:Radio
+Mahila Aawaj],[[Title:Pyuthan - Radio Mahila Aawaj],[Frequency
+:[90.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.1011],[Longitude:82.8452],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]346],
+[0B0E70842F00015D;,[[[26.5738,86.7371]]],[[Organisation:Appan
+FM],[[Title:Saptari - Appan FM],[Frequency
+:[104.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.5738],[Longitude:86.7371],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]347],
+[0B0E70842F00015E;,[[[28.9553,80.2496]]],[[Organisation:Radio
+Mahakali],[[Title:Kanchanpur, Mannapa, Mahendranagar 18 - Radio
+Mahakali],[Frequency :[96.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.9553],[Longitude:80.2496],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]348],
+[0B0E70842F00015F;,[[[27.2439,87.3702]]],[[Organisation:Radio
+Madi],[[Title:Chitawan, Diwakar Chowck, Basantapur Bajar, Madi - Radio
+Madi],[Frequency :[107.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.2439],[Longitude:87.3702],[Location
+Source:geocoded from Yahoo],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]349],
+[0B0E70842F000160;,[[[27.6794,85.3154]]],[[Organisation:Antenna
+Foundation Nepal],[[Title:Lalitpur, Bakhundol - Antenna Foundation
+Nepal],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6794],[Longitude:85.3154],[Location
+Source:infoasaid research in 2011],[Power:30w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]350],
+[0B0E70842F000161;,[[[27.5034,83.6334]]],[[Organisation:Radio
+Madhyavindu FM],[[Title:Nawalparasi, Campus Chowk, Kawashoti-5 - Radio Madhyavindu
+FM],[Frequency :[101.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.5034],[Longitude:83.6334],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]351],
+[0B0E70842F000162;,[[[27.8743,82.5224]]],[[Organisation:Radio
+Madhyapaschim],[[Title:Dang, Shahid Umesh Marg, Ghorahi-11 - Radio
+Madhyapaschim],[Frequency :[91.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.8743],[Longitude:82.5224],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]352],
+[0B0E70842F000163;,[[[28.2197,83.974]]],[[Organisation:Annapurna
+Music FM],[[Title:Kaski, Gairapatan, Pokhara-4 - Annapurna Music
+FM],[Frequency :[99.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2197],[Longitude:83.974],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]353],
+[0B0E70842F000164;,[[[26.7015,86.4487]]],[[Organisation:Radio
+Madhesh],[[Title:Malangwa - Radio Madhesh],[Frequency
+:[89.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7015],[Longitude:86.4487],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]354],
+[0B0E70842F000165;,[[[26.72,85.93]]],[[Organisation:Radio
+Madhesh],[[Title:Janakpur - Radio Madhesh],[Frequency
+:[106.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.72],[Longitude:85.93],[Location
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]355],
+[0B0E70842F000166;,[[[28.964899999999997,80.2167]]],[[Organisation:Angel
+FM],[[Title:Kanchanpur - Angel FM],[Frequency
+:[104.3],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.9649],[Longitude:80.2167],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]356],
+[0B0E70842F000167;,[[[26.7824,85.27310000000001]]],[[Organisation:Radio
+Madhesh],[[Title:Rautahat - Radio Madhesh],[Frequency
+:[89.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7824],[Longitude:85.2731],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]357],
+[0B0E70842F000168;,[[[27.6957,83.4631]]],[[Organisation:Radio
+Lumbini],[[Title:Rupandehi, Lumbini Anandawan 3 Manigram - Radio
+Lumbini],[Frequency :[96.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6957],[Longitude:83.4631],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]358],
+[0B0E70842F000169;,[[[26.7996,86.7096]]],[[Organisation:Amurta
+FM],[[Title:Udaypur, Triyuga-2, Gaighat - Amurta FM],[Frequency
+:[91.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7996],[Longitude:86.7096],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]359],
+[0B0E70842F00016A;,[[[27.9034,84.8845]]],[],[],2,[[Organisation:Radio
+Loktantra],[[Title:Dhading, Sugam Tole, Nilkantha Village Development Committee 5 -
+Radio Loktantra],[Frequency :[89.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9034],[Longitude:84.8845],[Location
+Source:infoasaid research in 2011],[On Air:Unknown],[Last
+Updated:06/05/2015],[Assessed Damage:Building cracked, not entered
+station],[Power:500w],[Power Source:infoasaid research in
+2011],[Radio
+Band:FM]]]360],
+[0B0E70843000016B;,[[[28.1253,82.8822]]],[[Organisation:Radio
+Lishne Aawaj],[[Title:Pyuthan, Bijuwar 6 - Radio Lishne
+Aawaj],[Frequency :[103.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1253],[Longitude:82.8822],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]361],
+[0B0E70843000016C;,[[[27.381500000000003,86.5036]]],[[Organisation:Afno
+FM],[[Title:Okhaldhunga 2, Panityanki - Afno FM],[Frequency
+:[104.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.3815],[Longitude:86.5036],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]362],
+[0B0E70843000016D;,[[[28.233,84.3736]]],[[Organisation:Radio
+Lamjung],[[Title:Lamjung, Besi Sahar 9, Shera - Radio
+Lamjung],[Frequency :[88.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.233],[Longitude:84.3736],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]363],
+[0B0E70843000016E;,[[[27.6726,85.3061]]],[[Organisation:Radio
+Lalipur],[[Title:Lalitpur - Radio Lalipur],[Frequency
+:[100.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6726],[Longitude:85.3061],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]364],
+[0B0E70843000016F;,[[[27.6787,83.4521]]],[[Organisation:Aasha
+ko Sandesh],[[Title:Rupandehi, Butwal 6 - Aasha ko
+Sandesh],[Frequency :[107.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6787],[Longitude:83.4521],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]365],
+[0B0E708430000170;,[[[27.0004,87.3372]]],[[Organisation:Radio
+Laliguransh],[[Title:Dhankuta - Dhankuta, Hile Nagarpalika-1, Dhankuta - Radio
+Laliguransh],[Frequency :[105.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.0004],[Longitude:87.3372],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]366],
+[0B0E708430000171;,[[[28.023500000000002,81.6696]]],[[Organisation:Radio
+Krishnasar],[[Title:Banke, Nepalgunj 16, Srijana Marg - Radio
+Krishnasar],[Frequency :[94.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.0235],[Longitude:81.6696],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]367],
+[0B0E708430000172;,[[[27.0261,84.8859]]],[[Organisation:Aakas
+FM],[[Title:Parsa, Dryport, Birgunj - Aakas FM],[Frequency
+:[101.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0261],[Longitude:84.8859],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]368],
+[0B0E708430000173;,[[[28.1955,81.6971]]],[[Organisation:Radio
+Kohalpur],[[Title:Banke, Kohalpur 3, Kohalpur Bazaar - Radio
+Kohalpur],[Frequency :[101.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1955],[Longitude:81.6971],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]369],
+[0B0E708430000174;,[[[29.2744,82.1764]]],[[Organisation:Radio
+Karnali],[[Title:Jumla, Mahat Village Development Committee 1 Bijayanagar - Radio
+Karnali],[Frequency :[105.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.2744],[Longitude:82.1764],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]370],
+[0B0E708430000175;,[[[29.259999999999998,80.55180000000001]]],[[Organisation:Aafno
+FM],[[Title:Dadeldhura, Bidhut Road, Amargadhi Nagarpalika-5 - Aafno
+FM],[Frequency :[104.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.26],[Longitude:80.5518],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]371],
+[0B0E708430000176;,[[[28.4204,82.175]]],[[Organisation:Radio
+Kapurkot],[[Title:Salyan- Kapurkot, Dhanwang-7, Salyan - Radio
+Kapurkot],[Frequency :[106.1],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.4204],[Longitude:82.175],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]372],
+[0B0E708430000177;,[[[27.5521,83.04840000000002]]],[[Organisation:Radio
+Kapilvastu],[[Title:Kapilvastu, Dhankauli-9, Chetrabei - Radio
+Kapilvastu],[Frequency :[104.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.5521],[Longitude:83.0484],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]373],
+[0B0E708430000178;,[[[26.9221,87.3111]]],[[Organisation:Radio
+Kantipur],[[Title:Sunsari, Bhedetar - Radio Kantipur],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9221],[Longitude:87.3111],[Location
+Source:infoasaid research in 2011],[Power:10000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]374],
+[0B0E708430000179;,[[[27.6665,83.4329]]],[[Organisation:Radio
+Kantipur],[[Title:Rupandehi, Butwal - Radio Kantipur],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6665],[Longitude:83.4329],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]375],
+[0B0E70843100017A;,[[[27.035900000000005,84.8927]]],[[Organisation:Radio
+Kantipur],[[Title:Parsa, Birgunj - Radio Kantipur],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.0359],[Longitude:84.8927],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]376],
+[0B0E70843100017B;,[[[26.9759,87.3303]]],[[Organisation:Radio
+Kantipur],[[Title:Dhankuta, Bhedetar - Radio Kantipur],[Frequency
+:[96.1],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9759],[Longitude:87.3303],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]377],
+[0B0E70843100017C;,[[[28.1967,83.9713]]],[[Organisation:Radio
+Lekhnath],[[Title:Kaski, Sundari Bazaar-3, Lekhnath - Radio
+Lekhnath],[Frequency :[106.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1967],[Longitude:83.9713],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]378],
+[0B0E70843100017D;,[[[29.5866,81.1313]]],[[Organisation:Radio
+Bajura],[[Title:Bajura, Atichaur VDC 5 - Radio Bajura],[Frequency
+:[104.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.5866],[Longitude:81.1313],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]379],
+[0B0E70843100017E;,[[[27.6738,84.397]]],[[Organisation:Radio
+Arpan],[[Title:Chitawan, Ratnanagar 1, Bakulahar Chowk - Radio
+Arpan],[Frequency :[104.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6738],[Longitude:84.397],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]380],
+[0B0E70843100017F;,[[[28.2197,83.974]]],[[Organisation:Radio
+Annapurna],[[Title:Kaski, Garirapatan, Pokhara 4 - Radio
+Annapurna],[Frequency :[93.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.2197],[Longitude:83.974],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]381],
+[0B0E708431000180;,[[[28.2379,81.3222]]],[[Organisation:Radio
+Babai],[[Title:Bardiya, Narayan Gopal Chowk, Gulariya 8 - Radio
+Babai],[Frequency :[106.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.2379],[Longitude:81.3222],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]382],
+[0B0E708431000181;,[[[27.9113,84.8886]]],[],[],3,[[Organisation:Radio
+Dhading],[[Title:Dhading, Neelkantha 5, Dhading Besi, Dhading - Radio
+Dhading],[Frequency :[106.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.9113],[Longitude:84.8886],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:Transmitter damaged, being repaired; feeder cable, UPS and battery problems; broadcasting at
+30W],[Assessed Damage:Transmitter
+repaired],[Power:500w],[Power Source:infoasaid research
+in 2011],[Radio
+Band:FM]]]383],
+[0B0E708431000182;,[[[27.6902,85.3293]]],[[Organisation:Radio
+Audio],[[Title:Kathmandu, Omkar Building, Naya Baneshwar - Radio
+Audio],[Frequency :[106.3],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.6902],[Longitude:85.3293],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]384],
+[0B0E708431000183;,[[[27.6738,84.4299]]],[[Organisation:Radio
+Chitawan],[[Title:Chitawan, Ratna nagar 4 - Radio
+Chitawan],[Coverage:On air],[Frequency
+:[94.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6738],[Longitude:84.4299],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]385],
+[0B0E708431000184;,[[[26.638900000000003,85.8046]]],[[Organisation:Radio
+Darpan],[[Title:Mahottari, Gauribaas 2, Gauridada - Radio
+Darpan],[Frequency :[88.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6389],[Longitude:85.8046],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]386],
+[0B0E708431000185;,[[[26.454600000000003,87.2905]]],[[Organisation:Radio
+Chamatkar],[[Title:Morang - Radio Chamatkar],[Frequency
+:[101.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.4546],[Longitude:87.2905],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]387],
+[0B0E708431000186;,[[[30.1071,81.8372]]],[[Organisation:Radio
+Kailash],[[Title:Humla, Simikot 3, Mathilo Bazaar - Radio
+Kailash],[Frequency :[103.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:30.1071],[Longitude:81.8372],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]388],
+[0B0E708431000187;,[[[26.8118,85.2484]]],[[Organisation:Radio
+Jivan Jyoti],[[Title:Rautahat, Mahadevpatti-4, Gauribas - Radio Jivan
+Jyoti],[Frequency :[90.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.8118],[Longitude:85.2484],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]389],
+[0B0E708432000188;,[[[27.6165,85.5567]]],[[Organisation:Radio
+Janasanchar],[[Title:Kavre, Karki Gaun Ward no. 6 - Radio
+Janasanchar],[Frequency :[107.3],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6165],[Longitude:85.5567],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]390],
+[0B0E708432000189;,[[[28.6954,80.619]]],[[Organisation:Radio
+Jana Aawaj],[[Title:Kailali, Anamnagar, Dhangadi 8 - Radio Jana
+Aawaj],[Frequency :[89.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.6954],[Longitude:80.619],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]391],
+[0B0E70843200018A;,[[[27.9119,85.144]]],[],[],2,[[Organisation:Radio
+Jalapa],[[Title:Nuwakot, Kakani-3, Ranipauwa - Radio
+Jalapa],[Frequency :[104.5],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.9119],[Longitude:85.144],[Location
+Source:infoasaid research in 2011],[On Air:Unknown],[Last
+Updated:06/05/2015],[Assessed Damage:Not visited. No back up power. Internal
+damages minimum],[Recommendations:Could resume once grid supply
+resumes],[Next Steps:Generator loan if electricity is not
+resumed],[Power:25w],[Power Source:infoasaid research in
+2011],[Radio Band:FM],[Comments:Reached by KTM
+Media]]]392],
+[0B0E70843200018B;,[[[28.6062,81.6037]]],[[Organisation:Radio
+Himal],[[Title:Surkhet - Radio Himal],[Frequency
+:[92.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.6062],[Longitude:81.6037],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]393],
+[0B0E70843200018C;,[[[27.9798,84.5755]]],[[Organisation:Radio
+Harmi],[[Title:Gorkha, Harmi-9, Newar Dada - Radio
+Harmi],[Frequency :[105.4],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:27.9798],[Longitude:84.5755],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]394],
+[0B0E70843200018D;,[[[28.4107,81.2082]]],[[Organisation:Radio
+Gurubaba],[[Title:Bardiya, Banshgadi, Motipur 8 - Radio
+Gurubaba],[Frequency :[106.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.4107],[Longitude:81.2082],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]395],
+[0B0E70843200018E;,[[[28.1447,83.2214]]],[[Organisation:Radio
+Gulmi],[[Title:Gulmi, Putalibazar, Tamghas - Radio
+Gulmi],[Frequency :[91.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.1447],[Longitude:83.2214],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]396],
+[0B0E70843200018F;,[[[28.164,84.0619]]],[[Organisation:Radio
+Gandaki],[[Title:Kaski, Naya Bazaar, Pokhara-9 - Radio
+Gandaki],[Frequency :[90.2],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.164],[Longitude:84.0619],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]397],
+[0B0E708432000190;,[[[26.9637,87.9071]]],[[Organisation:Radio
+Fikkal],[[Title:Ilam, Sanchar Gaun, Fikkal 5 - Radio
+Fikkal],[Frequency :[90.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.9637],[Longitude:87.9071],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]398],
+[0B0E708432000191;,[[[26.6941,86.44320000000002]]],[[Organisation:Radio
+Ekata],[[Title:Sarlahi, Campus Chowk, Lalbandi-8 - Radio
+Ekata],[Frequency :[94.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:26.6941],[Longitude:86.4432],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]399],
+[0B0E708432000192;,[[[28.1991,83.9754]]],[[Organisation:Radio
+Sarangkot],[[Title:Kaski, Chipledhunga-4, Pokhara - Radio
+Sarangkot],[Frequency :[104.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.1991],[Longitude:83.9754],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]400],
+[0B0E708432000193;,[[[26.7726,85.2649]]],[[Organisation:Radio
+Sanskriti],[[Title:Rautahat, Gaur 5 - Radio Sanskriti],[Frequency
+:[98.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.7726],[Longitude:85.2649],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]401],
+[0B0E708432000194;,[[[28.6159,82.4387]]],[[Organisation:Radio
+Sanobheri],[[Title:Rukum, Musikot, Khalanga-1 - Radio
+Sanobheri],[Frequency :[100.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.6159],[Longitude:82.4387],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]402],
+[0B0E708432000195;,[[[26.6438,87.9922]]],[[Organisation:Radio
+Sandesh],[[Title:Jhapa, Sarunga 5 - Radio Sandesh],[Frequency
+:[103.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.6438],[Longitude:87.9922],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]403],
+[0B0E708432000196;,[[[26.6941,86.4569]]],[[Organisation:Radio
+Samagra],[[Title:Siraha, Nayabazar, Lahan-6 - Radio
+Samagra],[Frequency :[107.8],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.6941],[Longitude:86.4569],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]404],
+[0B0E708433000197;,[[[28.405900000000003,82.1887]]],[[Organisation:Radio
+Salyan],[[Title:Salyan, DadaGaun, Khalanga-5 - Radio
+Salyan],[Frequency :[101.0],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.4059],[Longitude:82.1887],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]405],
+[0B0E708433000198;,[[[27.689600000000002,86.012]]],[],[],3,[[Organisation:Radio
+Sailung],[[Title:Dolakha, Chari Ghang, Bhimeshwor, Charikot-1 - Radio
+Sailung],[Frequency :[104.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6896],[Longitude:86.012],[Location
+Source:infoasaid research in 2011],[On Air:On air],[Last
+Updated:06/05/2015],[Assessed Damage:Reliant on grid-electricity for
+broadcasting; 3 batteries damaged, wall collapsed, UPS not working, 2 recorders lost, 2 computers
+damaged],[Power:250w],[Power Source:infoasaid research in
+2011],[Radio Band:FM],[Comments:Could be considered for
+receiving computers; ACORAB could send out an appeal for donating used computers within
+Nepal\]]]406],
+[0B0E708433000199;,[[[27.6812,85.3159]]],[[Organisation:Radio
+Sagarmatha],[[Title:Lalitpur, Bakhundol - Radio
+Sagarmatha],[Frequency :[102.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6812],[Longitude:85.3159],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]407],
+[0B0E70843300019A;,[[[26.654800000000005,85.7991]]],[[Organisation:Radio
+Rudraksha],[[Title:Mahottari, Jaleshwar-5, Cinema Hall Chowk - Radio
+Rudraksha],[Frequency :[103.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.6548],[Longitude:85.7991],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]408],
+[0B0E70843300019B;,[[[28.3068,82.63370000000002]]],[[Organisation:Radio
+Rolpa],[[Title:Rolpa, Simal chautara, Liwang 5 - Radio
+Rolpa],[Frequency :[93.8],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.3068],[Longitude:82.6337],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]409],
+[0B0E70843300019C;,[[[27.6495,83.4824]]],[[Organisation:Radio
+Republic],[[Title:Rupandehi, Kalikanagar, Butwal-12 - Radio
+Republic],[Frequency :[88.2],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.6495],[Longitude:83.4824],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]410],
+[0B0E70843300019D;,[[[29.1275,81.257]]],[[Organisation:Radio
+Ramaroshan],[[Title:Achhaam, Mangalsen 3 - Radio
+Ramaroshan],[Frequency :[92.0],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:29.1275],[Longitude:81.257],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]411],
+[0B0E70843300019E;,[[[26.4558,87.28360000000002]]],[[Organisation:Radio
+Purbanchal],[[Title:Morang, Biratnagar 16, Panchali - Radio
+Purbanchal],[Frequency :[104.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:26.4558],[Longitude:87.2836],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]412],
+[0B0E70843300019F;,[[[28.141,85.3116]]],[[Organisation:Durgam
+FM],[[Title:Rasuwa - Durgam FM],[Frequency
+:[100.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.141],[Longitude:85.3116],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]413],
+[0B0E7084330001A0;,[[[28.181,81.7245]]],[[Organisation:Radio
+Pratibodh],[[Title:Banke - Newroad, Kohalpur-3, Banke - Radio
+Pratibodh],[Frequency :[102.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:28.181],[Longitude:81.7245],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]414],
+[0B0E7084330001A1;,[[[28.701399999999996,80.5971]]],[[Organisation:Dinesh
+FM],[[Title:Kailali, Main Road, Dhangadi 4 - Dinesh FM],[Frequency
+:[93.8],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.7014],[Longitude:80.5971],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]415],
+[0B0E7084330001A2;,[[[27.8731,83.5703]]],[[Organisation:Radio
+Paschimanchal],[[Title:Palpa, Kailashnagar, Tansen-7 - Radio
+Paschimanchal],[Frequency :[99.4],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.8731],[Longitude:83.5703],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]416],
+[0B0E7084330001A3;,[[[27.9823,84.3063]]],[[Organisation:Dhorbarahi
+FM],[[Title:Tanahu - Dhorbarahi FM],[Frequency
+:[88.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.9823],[Longitude:84.3063],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]417],
+[0B0E7084330001A4;,[[[28.3044,83.7131]]],[[Organisation:Radio
+Parbat],[[Title:Parbat, Khanigaun-2, Phalebas - Radio
+Parbat],[Frequency :[103.6],3],[Frequency Source:infoasaid research
+in
+2011],[Latitude:28.3044],[Longitude:83.7131],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]418],
+[0B0E7084330001A5;,[[[28.2173,83.6005]]],[[Organisation:Dhawalagiri
+FM],[[Title:Baglung 2, Mahendra Path - Dhawalagiri FM],[Frequency
+:[98.6],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.2173],[Longitude:83.6005],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]419],
+[0B0E7084340001A6;,[[[28.8543,81.6971]]],[[Organisation:Radio
+Panchakoshi Samudayik FM],[[Title:Dailekh, Narayan Nagarpalika-6, Kadachour - Radio
+Panchakoshi Samudayik FM],[Frequency :[104.0],3],[Frequency
+Source:infoasaid research in
+2011],[Latitude:28.8543],[Longitude:81.6971],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]420],
+[0B0E7084340001A7;,[[[27.5838,83.65130000000002]]],[[Organisation:Daunne
+FM],[[Title:Nawalparasi - Daunne FM],[Frequency
+:[103.4],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.5838],[Longitude:83.6513],[Location
+Source:infoasaid research in 2011],[Power:50w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]421],
+[0B0E7084340001A8;,[[[27.3498,86.5009]]],[[Organisation:Radio
+Okhaldhunga],[[Title:Okhaldhunga 2, Ramailo Danda - Radio
+Okhaldhunga],[Frequency :[105.6],3],[Frequency Source:infoasaid
+research in
+2011],[Latitude:27.3498],[Longitude:86.5009],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]422],
+[0B0E7084340001A9;,[[[26.8412,87.2891]]],[[Organisation:Dantakali
+FM],[[Title:Sunsari, Pashupati Marg, Dharan-13 - Dantakali
+FM],[Frequency :[88.5],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.8412],[Longitude:87.2891],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]423],
+[0B0E7084340001AA;,[[[26.9221,87.925]]],[[Organisation:Radio
+Nepalvani],[[Title:Ilam 1, Mala Path - Radio Nepalvani],[Frequency
+:[94.9],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9221],[Longitude:87.925],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]424],
+[0B0E7084340001AB;,[[[27.8889,82.5087]]],[[Organisation:Dang
+FM],[[Title:Dang - Dang FM],[Frequency
+:[107.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.8889],[Longitude:82.5087],[Location
+Source:infoasaid research in 2011],[Power:100w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]425],
+[0B0E7084340001AC;,[[[27.6738,83.4247]]],[[Organisation:Radio
+Nepal],[[Title:Nawalparasi, Daunne - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6738],[Longitude:83.4247],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]426],
+[0B0E7084340001AD;,[[[27.9944,84.28990000000002]]],[[Organisation:Damauli
+FM],[[Title:Tanahu, Balmandir Chowk, Damauli-2 - Damauli
+FM],[Frequency :[94.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.9944],[Longitude:84.2899],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]427],
+[0B0E7084340001AE;,[[[29.583,82.1118]]],[[Organisation:Radio
+Nepal],[[Title:Mugu, Murma Top - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:29.583],[Longitude:82.1118],[Location
+Source:infoasaid research in 2011],[Power:250w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]428],
+[0B0E7084340001AF;,[[[27.6698,85.3094]]],[[Organisation:Classic
+FM],[[Title:Lalitpur, Jawalakhel - Classic FM],[Frequency
+:[101.2],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6698],[Longitude:85.3094],[Location
+Source:infoasaid research in 2011],[Power:500w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]429],
+[0B0E7084340001B0;,[[[27.6577,85.32500000000002]]],[[Organisation:Radio
+Nepal],[[Title:Lalitpur, Khumaltar - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:27.6577],[Longitude:85.325],[Location
+Source:infoasaid research in 2011],[Power:3000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]430],
+[0B0E7084340001B1;,[[[28.811,80.6122]]],[[Organisation:Radio
+Nepal],[[Title:Kailali, Buditola - Radio Nepal],[Frequency
+:[103.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.811],[Longitude:80.6122],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]431],
+[0B0E7084340001B2;,[[[26.9588,87.9099]]],[[Organisation:Radio
+Nepal],[[Title:Ilam - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:26.9588],[Longitude:87.9099],[Location
+Source:infoasaid research in 2011],[Power:1000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]432],
+[0B0E7084340001B3;,[[[28.009,83.0786]]],[[Organisation:Radio
+Nepal],[[Title:Gulmi, Rasunga - Radio Nepal],[Frequency
+:[100.0],3],[Frequency Source:infoasaid research in
+2011],[Latitude:28.009],[Longitude:83.0786],[Location
+Source:infoasaid research in 2011],[Power:2000w],[Power
+Source:infoasaid research in 2011],[Radio
+Band:FM]]]433],
+[0B14E0A5CE63E01E;,[],[[[[[29.7214519,81.0736084]],[[29.7405322,81.3043213]]]]],[],0,[[],[[Title:Ligne
+435]]]434],
+[0B3D0785A329E572;,[[[27.584296,85.5163765]]],[],[],3,[[Organisation:Radio
+Prime],[[Title:Radio Prime],[Frequency
+:[104.5],3],[Latitude:27.584296],[Longitude:85.5163765],[Location
+Source:http://www.acorab.org.np/index.php?pagename\\u003dmemberDetail\\u0026memberId\\u003d187],[On
+Air:On air],[Assessed Damage:Began Operations
+30/04/2015]]]435],
+[0B3D13A219D20238;,[[[28.0798563,85.4145813]]],[],[],1,[[Organisation:Radio
+Gosaikunda],[[Title:Radio
+Gosaikunda],[Latitude:28.0798563],[Longitude:85.4145813],[On
+Air:Off air],[Last Updated:06/05/2015],[Assessed
+Damage:Not accessible because of road condition. No back up power. Internal damages said to be
+minimum],[Recommendations:Could resume once grid supply resumes],[Next
+Steps:Generator loan if electricity is not
+resumed]]]436],
+
+ [0B3D3F9F7FF472BC;,[[[27.3065027,85.9937668]]],[],[],3,[[Organisation:Bhimeshwor
+FM],[[Title:Bhimeshwor
+FM],[Latitude:27.3065027],[Longitude:85.9937668],[On
+Air:On air],[Last Updated:06/05/2015],[Assessed
+Damage:Building cracks, problem with tower, battery and studio TV
+damaged]]]437],
+
+ [0B3D60FD65942A2F;,[[[27.981365100000005,85.18489840000001]]],[],[],1,[[Organisation:radio
+langtang],[[Title:Radio Langtang],[Frequency
+:[90.3],3],[Latitude:27.9813651],[Longitude:85.1848984],[On
+Air:Off air],[Last Updated:06/05/2015],[Assessed
+Damage:No backup, equipment could not be tested, no power supply, some cracks in
+building],[Recommendations:Could resume once grid supply resumes],[Next
+Steps:Generator loan if electricity is not
+resumed]]]438],
+
+ [0B3EC58BD693A8D2;,[[[27.8286018,85.5596352]]],[],[],1,[[Organisation:Radio
+Melamchi],[[Title:Radio
+Melamchi],[Latitude:27.8286018],[Longitude:85.5596352],[On
+Air:Off air],[Last Updated:06/05/2015],[Assessed
+Damage:Off air. Not details available. No house to station a
+radio],[Recommendations:Suitcase radio, tent, food supplies,
+backup],[Next Steps:Consider deploying one Suitcase Radio temporily for
+Melamchi]]]439],
+
+[0B3EC8E9F5F20896;,[[[27.7662666,85.6993675]]],[],[],2,[[Organisation:Radio
+Planet],[[Title:Radio Planet],[Frequency
+:[89.1],3],[Latitude:27.7662666],[Longitude:85.6993675],[On
+Air:Unknown],[Assessed Damage:Operator has moved out of
+district]]]440]]
+}

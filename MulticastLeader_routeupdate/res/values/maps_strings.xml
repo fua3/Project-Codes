@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="baseapp">Baseapp</string>
+  <string name="loginapp">Login</string>
+  <string name="pushnotification">PITT</string>
+  <string name="basemaps">Basemaps</string>
+  <string name="closestfacility">Closest Facility</string>
+  <string name="closestshelter">Closest Shelter</string>
+  <string name="barriersreport">EvacuationMap</string>
+  <string name="attributeeditor">Shelter Manage</string>
+   
+  <string name="riskregion">Risk Region</string>
+  <string name="facilitiesservice">Facilities</string>
+  <!-- basemap menu items -->
+  <string name="StreetMapMenu">Streets</string>
+  <string name="TopoMenu">Topographic</string>
+  <string name="GrayMenu">Gray</string>
+  <string name="OceanMenu">Oceans</string>
+  
+  <!-- for route analysis -->
+   <string name="routetask">Evacuation Route</string>
+   <string name="routetosheltertask">Evacuation Route</string>
+   <string name="routeanalysis">Evacuation Route</string>
+   <string name="route_label">Press and hold map to route to that point\nClick segments for more information</string>
+   <string name="defaultroute_label">Press and hold map to get available route</string>
+
+    
+   <string name="servicearea">Service Area</string>
+</resources>

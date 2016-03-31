@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_alignParentLeft="true"
+    android:background="#00A9E7">
+ 
+     <Button
+        android:id="@+id/dialogButtonRoute"
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:text="Route"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+         android:layout_marginLeft="10dp"
+        android:layout_below="@+id/image"
+        />
+     <Button
+        android:id="@+id/dialogButtonReport"
+        android:layout_width="180px"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/image"
+        />
+     
+</RelativeLayout>

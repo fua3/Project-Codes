@@ -36,17 +36,17 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 
-public class KeyValueStoreController extends MultiActionController {
+public class KeyValueStoreController_backup extends MultiActionController {
 
     private static final int List = 0;
-    private static final String Serviceip="10.130.10.58";
+    private static final String Serviceip="150.212.71.10";
     private static final int Serviceport=6379;
     BufferedReader in = null;
     PrintWriter out = null;
     Socket sk = null;
     Exception mException = null;
 
-	public KeyValueStoreController() {
+	public KeyValueStoreController_backup() {
     }
     public  void showallleadersegment(HttpServletRequest request,
             HttpServletResponse response) throws Exception {
@@ -446,7 +446,7 @@ public class KeyValueStoreController extends MultiActionController {
         		
         		for(int j=0;j<aa.length;j++)
         		{
-        			if(templeaderid.equals(aa[j])){
+        			if(leaderid.equals(aa[j])){
         				temp=false;
         				templeaderid=rs.get(i);        				
         				break;        				
@@ -571,13 +571,13 @@ public class KeyValueStoreController extends MultiActionController {
     public  void addaffectedsegment(HttpServletRequest request,
             HttpServletResponse response) throws Exception {
         
-        String segmentid =  ServletRequestUtils.getStringParameter(request,"segmentid");
+        String leaderid =  ServletRequestUtils.getStringParameter(request,"leaderid");
         String affectedcoor=ServletRequestUtils.getStringParameter(request,"affectedcoor");;
 
         Jedis jedis = new Jedis(Serviceip,Serviceport);
                                                  
         Map<String,String> leadersegment = new HashMap<String,String>();  
-        leadersegment.put(segmentid, affectedcoor);            
+        leadersegment.put(leaderid, affectedcoor);            
         jedis.hmset("affectedsegment", leadersegment); 
          
         Map<String,String> map = jedis.hgetAll("affectedsegment");   
@@ -1410,8 +1410,455 @@ public class KeyValueStoreController extends MultiActionController {
         byte[] resp = respstr.getBytes("UTF-8");
         outputStream.write(resp);            	
     }
+    public void notificationleadersbyshelterid(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+    	Socket outputSocket = null;
+    	PrintWriter out = null; 
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+        String shelterid = ServletRequestUtils.getStringParameter(request,
+                "shelterid");
+        String leaderid = ServletRequestUtils.getStringParameter(request,
+                "leaderid");
+    	
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="failure";
+    	    	
+        Jedis jedis = new Jedis(Serviceip,Serviceport);  
+
+        List<String> rs = jedis.hmget("leadershelter", shelterid); 
+        
+        if(rs != null){    //sample: 41:1,000000000000,localhost:22223,136.142.186.102:22227    	
+        	for(int i=0;i<rs.size();i++){
+        		if(rs.get(i)=="" ||rs.get(i)==null) continue;
+        			String[] leaderids= rs.get(i).split(",");
+        				if(leaderids.length==4){
+        					String ip = leaderids[2].split(":")[0];
+        					int port = Integer.parseInt(leaderids[2].split(":")[1]);
+        		        
+        					try
+        					{             		    		        		    		       						
+            					outputSocket = new Socket(ip, port);
+            					//outputSocket.setKeepAlive(true);  
+            					//outputSocket.setSoTimeout(2*1000);
+            					System.out.println("Connected on Pi: " +ip+":"+ port);
+
+            				    out = new PrintWriter(new BufferedWriter(
+            							new OutputStreamWriter(outputSocket.getOutputStream())),
+            							true);		    
+            				 
+            				    String tempstr="16;"+ip+":"+port+";#;###";
+            				    int strlen=tempstr.length();
+            				    out.println("16;"+ip+":"+port+";#;###");   
+            				    
+            				    respstr="success";
+            				                				    
+        					}catch (Exception e) {
+        						
+        					}         				
+        				       			       			        		        			
+        			}       		                 	
+        	}
+        
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);        
+        }    	
+    }  
+    public void notificationleadersbysegmentid(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+    	Socket outputSocket = null;
+    	PrintWriter out = null; 
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+        String segmentid = ServletRequestUtils.getStringParameter(request,
+                "segmentid");
+    	
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="failure";
+    	    	
+        Jedis jedis = new Jedis(Serviceip,Serviceport);  
+        /*
+        Map<String,String> leadersegment = new HashMap<String,String>();  
+        leadersegment.put("10000", "150.212.2.138:22223");          
+        jedis.hmset("leadersegment", leadersegment);   
+        */
+        List<String> rs = jedis.hmget("leadersegment", segmentid); 
+        
+        if(rs != null){        	
+        	for(int i=0;i<rs.size();i++){
+        		if(rs.get(i)=="" ||rs.get(i)==null) continue;//[Pi ip, Pi port; L ip, L port]---192.168.1.113,22226,192.168.18.38,22223
+        			String[] leaderids= rs.get(i).split(";");
+        			for(int j=0;j<leaderids.length;j++){
+        				String[] templeader=leaderids[j].split(":");
+        				if(templeader.length==2){
+        					String ip = templeader[0];
+        					int port = Integer.parseInt(templeader[1]);
+        		        
+        					try
+        					{             		    		        		    		
+        						//Thread s=new SendThread(ip,port,str);   
+        						//s.start();  
+        						
+            					outputSocket = new Socket(ip, port);
+            					//outputSocket.setKeepAlive(true);  
+            					//outputSocket.setSoTimeout(2*1000);
+            					System.out.println("Connected on " +ip+":"+ port);
+
+            				    out = new PrintWriter(new BufferedWriter(
+            							new OutputStreamWriter(outputSocket.getOutputStream())),
+            							true);		    
+            				    //out.println(str);
+            				    String tempstr="0;"+ip+":"+port+";#;###";
+            				    int strlen=tempstr.length();
+            				    out.println("0;"+ip+":"+port+";#;###");   
+            				    
+            				    respstr="success";
+            				                				    
+        					}catch (Exception e) {
+        						
+        					}         				
+        				}        			       			        		        			
+        			}       		                 	
+        	}
+        
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);        
+        }    	
+    }  
     
-   
+    public void notificationpiandleadersbysegmentid(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+    	Socket outputSocket = null;
+    	PrintWriter out = null; 
+    	List<String> templeaderids= new ArrayList<String>();
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+        String segmentid = ServletRequestUtils.getStringParameter(request,
+                "segmentid");
+    	
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="failure";
+    	    	
+        Jedis jedis = new Jedis(Serviceip,Serviceport);  
+
+        List<String> rs0 = jedis.hmget("leadersegment", segmentid); 
+        
+        if(rs0 != null){        	
+        	for(int i=0;i<rs0.size();i++){
+        		if(rs0.get(i)=="" ||rs0.get(i)==null) continue;
+        		String[] leaderids= rs0.get(i).split(";");
+        		for(int k=0;k<leaderids.length;k++){
+            		//List<String> rs = jedis.hmget("piandleaderipaddress", leaderids[k]); 
+            		
+        			String[] leaderips= leaderids[k].split(",");
+        			if(leaderips.length==7){
+        				String[] temppi=leaderips[4].split(":");
+        				String[] templeader=leaderips[3].split(":");
+        				if(temppi.length==2){
+        					String piip = temppi[0];
+        					int piport = Integer.parseInt(temppi[1]);
+        					String leaderip=templeader[0];
+        					int leaderport=Integer.parseInt(templeader[1]);
+    					    if(templeaderids.contains(leaderip)) continue;
+    					    
+    					    else
+    					    {
+    					    	 templeaderids.add(leaderip);
+        				    try
+        						{             		    		        		    		
+        						
+        							outputSocket = new Socket(piip, piport);
+
+        							System.out.println("Connected on " +piip+":"+ piport);
+
+        							out = new PrintWriter(new BufferedWriter(
+            							new OutputStreamWriter(outputSocket.getOutputStream())),
+            							true);		    
+        							String tempstr="12;"+leaderips[1]+";"+leaderips[2]+";"+leaderips[3]+";"+leaderips[5]+";"+leaderips[6]+";###";
+        							int strlen=tempstr.length();          							
+        							out.println(strlen+";12;"+leaderips[1]+";"+leaderips[2]+";"+leaderips[3]+";"+leaderips[5]+";"+leaderips[6]+";###");            				    
+        							respstr="success";
+            				                				    
+        						}catch (Exception e) {        						
+        					}
+    					    }
+        				}   
+        			}          			
+        		
+        		}
+      		                 	
+        	}
+        
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);        
+        }    	
+    } 
+    public void notificationdetourbysegmentid(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+    	Socket outputSocket = null;
+    	PrintWriter out = null; 
+    	
+    	List<String> leaders= new ArrayList<String>();
+    	List<String> shelters= new ArrayList<String>();
+    	List<String> macs= new ArrayList<String>();
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+        String segmentid = ServletRequestUtils.getStringParameter(request,
+                "segmentid");
+        String startpt="";
+		   
+		String segmentcoor=getCCinfo("http://"+Serviceip+":8080/ga/roadsegment?where=&objectIds="+segmentid+"&returnGeometry=true&f=pjson",InetAddress.getByName(Serviceip),22225);
+    	
+		
+	    JSONObject jsonObject = new JSONObject(segmentcoor);	     
+	    JSONArray jsonArray = jsonObject.getJSONArray("features");
+	    for (int i = 0; i < jsonArray.length(); i++) {
+	        JSONObject object = jsonArray.getJSONObject(i);
+	        JSONObject jsonObjectgeometry = object.getJSONObject("geometry");
+
+	        JSONArray  path=jsonObjectgeometry.getJSONArray("paths");
+	        
+		      for (int j = 0; j < path.length(); j++) {
+		    		 
+					JSONArray jsonArray1 = path.getJSONArray(j);
+					for (int k = 0; k < jsonArray1.length(); k++) {
+						JSONArray jsonArray2 = jsonArray1.getJSONArray(j);
+						
+						Object jsonArray3 = jsonArray2.get(0);
+						Object jsonArray4 = jsonArray2.get(1);
+						
+						startpt=jsonArray3.toString()+","+jsonArray4.toString();
+						//double sx=Double.parseDouble(jsonArray3.toString());
+						//double sy=Double.parseDouble(jsonArray4.toString());										
+												
+					}												
+		    }
+	      }
+	      
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="";
+    	    	
+        Jedis jedis = new Jedis(Serviceip,Serviceport);  
+
+        List<String> rs0 = jedis.hmget("leadersegment", segmentid); 
+        
+        if(rs0 != null){        	
+        	for(int i=0;i<rs0.size();i++){
+        		if(rs0.get(i)=="" ||rs0.get(i)==null) continue;
+        		String[] leaderids= rs0.get(i).split(";");
+        		for(int k=0;k<leaderids.length;k++){
+            		
+        			String[] leaderips= leaderids[k].split(",");
+        			if(leaderips.length==7){
+        				if(shelters.contains(leaderips[0])) continue;  //41,3,88708ca4537d,192.168.19.12:22223,192.168.1.111:22227
+        					
+        				else
+        					shelters.add(leaderips[0]);
+        				if(macs.contains(leaderips[2])) continue;
+        				else
+        				{
+        					macs.add(leaderips[2]);
+        					leaders.add(leaderips[3]+","+leaderips[4]);
+        				}
+        				
+        				/*
+        				String[] temppi=leaderips[4].split(":");
+        				String[] templeader=leaderips[3].split(":");
+        				if(temppi.length==2){
+        					String piip = temppi[0];
+        					int piport = Integer.parseInt(temppi[1]);
+        					String leaderip=templeader[0];
+        					int leaderport=Integer.parseInt(templeader[1]);
+        				    try
+        						{             		    		        		    		        						
+        							outputSocket = new Socket(piip, piport);
+        							System.out.println("Connected on " +piip+":"+ piport);
+
+        							out = new PrintWriter(new BufferedWriter(
+            							new OutputStreamWriter(outputSocket.getOutputStream())),
+            							true);		    
+        							
+        							out.println("12;"+leaderips[0]+";"+leaderips[1]+";"+leaderips[2]+";###");            				    
+        							respstr="success";
+            				                				    
+        						}catch (Exception e) {        						
+        					}         				
+        				}  
+        				*/ 
+        			}          			
+        		
+        		}
+      		                 	
+        	}
+       
+        }
+        
+        String sheltcoor="";
+        String stops="";
+        for(int l=0;l<shelters.size();l++){
+        	
+    		String sheltercoor=getCCinfo("http://"+Serviceip+":8080/ga/shelters?where=&objectIds="+shelters.get(l)+"&returnGeometry=true&f=pjson",InetAddress.getByName(Serviceip),22225);
+        	
+    		
+    	    JSONObject jsonObject0 = new JSONObject(sheltercoor);	     
+    	    JSONArray jsonArray0 = jsonObject0.getJSONArray("features");
+    	    for (int m = 0; m < jsonArray0.length(); m++) {
+    	    	
+    	        JSONObject object0 = jsonArray0.getJSONObject(m);
+    	        JSONObject jsonObjectgeometry = object0.getJSONObject("geometry");    	        
+		        double x=jsonObjectgeometry.getDouble("x");
+		        double y= jsonObjectgeometry.getDouble("y");
+
+		        sheltcoor=x+","+y;
+    	      }
+    	    stops=startpt+";"+sheltcoor;
+    	    
+    	    String polylinebarriers=getCCinfo("http://"+Serviceip+":8080/ga/keyvaluestore?action=showaffectedbarriers",InetAddress.getByName(Serviceip),22225); 
+				 
+			 
+			String result2=getCCinfo("http://"+Serviceip+":8080/ga/naroute?stops="+stops+
+						"&polylineBarriers="+polylinebarriers+"&travelDirection=esriNATravelDirectionToFacility" +
+				   		"&defaultTargetFacilityCount=1&outSR=102100&impedanceAttributeName=Length" +
+				   		"&restrictUTurns=esriNFSBAllowBacktrack&useHierarchy=false&returnDirections=true&returnCFRoutes=true&returnFacilities=false&returnIncidents=false&returnBarriers=false" +
+				   		"&returnPolylineBarriers=false&returnPolygonBarriers=false&directionsLanguage=en&directionsOutputType=esriDOTComplete" +
+				   		"&outputLines=esriNAOutputLineTrueShapeWithMeasure&outputGeometryPrecisionUnits=esriDecimalDegrees" +
+				   		"&directionsLengthUnits=esriNAUMiles&timeOfDayUsage=esriNATimeOfDayUseAsStartTime&timeOfDayIsUTC=false&returnZ=false&f=pjson",InetAddress.getByName(Serviceip),22225);												   															
+			   												   													   																				
+			if(result2!=""){
+				respstr=result2;
+			}
+    	    
+        	
+        }
+        
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);  
+    } 
+    
+    public void notificationbywarning(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+    	Socket outputSocket = null;
+    	PrintWriter out = null; 
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+        String[] regionids = ServletRequestUtils.getStringParameter(request,
+                "regionid").split(",");
+    	
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="failure";
+    	 
+    	 List<String> templeaderids= new ArrayList<String>();
+    	 int tempis=0;
+    	
+        Jedis jedis = new Jedis(Serviceip,Serviceport);  
+
+        for(int i=0;i<regionids.length;i++){
+        Map<String,String> map1 = jedis.hgetAll("leadersegment");   
+        for(Map.Entry entry: map1.entrySet()) {
+        	
+            String segmentid =  entry.getKey().toString();           
+            String[] leaderids =entry.getValue().toString().split(";");
+            
+            if(leaderids != null){        	            	
+            		for(int k=0;k<leaderids.length;k++){
+                		//List<String> rs = jedis.hmget("piandleaderipaddress", leaderids[k]); 
+                		
+            			String[] leaderips= leaderids[k].split(",");//41,3,88708ca4537d,192.168.19.12:22223,192.168.1.111:22227
+            				if(leaderips.length==7 && leaderips[1].equals(regionids[i])){
+            					String[] temppi=leaderips[4].split(":");
+            					String[] templeader=leaderips[3].split(":");
+            					if(temppi.length==2){
+            						String piip = temppi[0];
+            						int piport = Integer.parseInt(temppi[1]);
+            					    String leaderip=templeader[0];
+            					    int leaderport=Integer.parseInt(templeader[1]);
+            					    
+            					    if(templeaderids.contains(leaderip)) continue;
+            					    
+
+            					    else
+            					    {
+            					    	 templeaderids.add(leaderip);
+            						try
+            						{             		    		        		    		
+                    						
+            							outputSocket = new Socket(piip, piport);
+
+            							System.out.println("Connected on " +piip+":"+ piport);
+
+            							out = new PrintWriter(new BufferedWriter(
+                							new OutputStreamWriter(outputSocket.getOutputStream())),
+                							true);	
+            							
+            							String tempstr="15;"+leaderips[1]+";"+leaderips[2]+";"+leaderips[3]+";###";
+            							int strlen=tempstr.length();
+            							
+            							System.out.println(strlen+";"+tempstr);
+            							out.println(strlen+";15;"+leaderips[1]+";"+leaderips[2]+";"+leaderips[3]+";###"); 
+            							tempis=0;
+            							respstr="success";                				                				    
+            						}catch (Exception e) {        						
+            					} 
+            					    
+            					}
+            				}   
+            			}          			
+            		
+            		}
+          		                 	
+            	   
+            } 
+
+            } 
+    }
+       
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);  
+        }
+    public void udpmulticastwarning(HttpServletRequest request,
+            HttpServletResponse response)  throws Exception {
+    	   	
+        String str = ServletRequestUtils.getStringParameter(request,
+                "str");         
+    	
+    	OutputStream outputStream = response.getOutputStream();
+    	String respstr="OK";
+    	 
+		String FormatedData = "";	
+		// TODO Auto-generated method stub
+		MulticastSocket multicastSocket;
+		try {
+			multicastSocket = new MulticastSocket();
+			InetAddress address = InetAddress.getByName("239.1.1.171"); 
+	        multicastSocket.joinGroup(address); 
+	        System.out.println("UDP Multicast Server Start Success");
+	        
+	        	if(str!=null && str!="")
+	        		 FormatedData = str;//"23;1;0;199;01;1,2,3,4;5";
+	            byte[] buf = FormatedData.getBytes();
+	            DatagramPacket datagramPacket = new DatagramPacket(buf, buf.length);
+	            datagramPacket.setAddress(address); 
+	            datagramPacket.setPort(7404);
+	            
+	            multicastSocket.send(datagramPacket);
+	            Thread.sleep(1000);
+	        
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+       
+        byte[] resp = respstr.getBytes("UTF-8");
+        outputStream.write(resp);  
+        }
     public void getenews(HttpServletRequest request,
             HttpServletResponse response)  throws Exception {
     	   	
@@ -1538,7 +1985,56 @@ byte[] resp = result.getBytes("UTF-8");
 outputStream.write(resp);   
 		 
 }
-	 
+	 public String getCCinfo(String url, InetAddress hosaddresss, int port ){
+		 
+		 	String result="";
+	        try{
+	        	//InetAddress.getByName(tip)
+			   sk = new Socket (hosaddresss, port);
+			   InputStreamReader isr;
+			   isr = new InputStreamReader (sk.getInputStream ());
+			   in = new BufferedReader (isr);
+			   
+			   //create output
+	
+			   out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(sk.getOutputStream())), true);
+			   											   
+			   out.println (url);
+			   
+			   String line;
+			   while ((line = in.readLine()) != null) {
+			       result += line;
+			   }
+			   													   																						
+			   
+		} 
+	    catch (IOException e) {
+		
+			e.printStackTrace();
+		} catch (Exception e) {
+			mException = e;
+		}
+finally
+{
+
+	//at last, release resources
+	try{ 
+		if (in != null)
+			in.close ();
+		if (out != null)
+			out.close ();
+		if (sk != null)
+			sk.close ();       
+	}
+	catch (IOException e)
+	{ 
+		System.out.println("close err"+e);       
+	}
+
+}		 
+return result;
+		 
+}
 	 
 public void gettime(HttpServletRequest request, HttpServletResponse response) throws Exception,  
      java.io.IOException {  
@@ -1589,9 +2085,77 @@ protected void writerResponse(HttpServletResponse response, String body, String 
  
 }
 
+//from CC to HPi--warning/detour with dynamic region id
+public void UDPMulticast(HttpServletRequest request,
+	       HttpServletResponse response)  throws Exception {
+		 
+		 
+			String FormatedData = "";	
+			MulticastSocket multicastSocket;
+			try {
+				multicastSocket = new MulticastSocket();
+				InetAddress address = InetAddress.getByName("239.1.1.171"); 
+		        multicastSocket.joinGroup(address); 
+		        System.out.println("UDP Multicast Sender Start Success");
+		      
+		        FormatedData = "23;1;0;199;01;1,2,3,4;5";
+		        byte[] buf = FormatedData.getBytes();
+		        DatagramPacket datagramPacket = new DatagramPacket(buf, buf.length);
+		        datagramPacket.setAddress(address);  
+		        datagramPacket.setPort(7404);
+		            
+		        multicastSocket.send(datagramPacket);
+		        Thread.sleep(1000);		            
+		        multicastSocket.close();
+		       
+			} catch (IOException e) {
 
+				e.printStackTrace();
+			} catch (InterruptedException e) {
 
+				e.printStackTrace();
+			}								 
+}
 
+//from CC to affected HPi
+public void UDPUnicast(HttpServletRequest request,
+	        HttpServletResponse response)  throws Exception {
+	
+		DatagramSocket datagramSocket = null; 
+		Random random = new Random();
+		String uuid = UUID.randomUUID().toString();
 
+		try {				
+			datagramSocket = new DatagramSocket(random.nextInt(9999));
+			datagramSocket.setSoTimeout(10 * 1000);
+			System.out.println("UDP Unicast Sender start success");
+			
+			byte[] buffer = new byte[1024 * 64]; 
+			
+			String formantdata="23;1;0;199;01;1,2,3,4,5:6";
+			byte[] btSend =formantdata.getBytes("UTF-8");
+			DatagramPacket packet = new DatagramPacket(buffer, buffer.length, InetAddress.getByName("130.49.219.87"), 7385);
+			packet.setData(btSend);
+			System.out.println(uuid + ":send:" + Arrays.toString(btSend));
+			try {
+				datagramSocket.send(packet);
+			} catch(Exception e){
+				e.printStackTrace();
+			}
+			
+			datagramSocket.receive(packet);
+			byte[] bt = new byte[packet.getLength()];
+			System.arraycopy(packet.getData(), 0, bt, 0, packet.getLength());
+			if(null != bt && bt.length > 0){
+				System.out.println(uuid + ":receive:" + Arrays.toString(bt));
+			}
+			Thread.sleep(1 * 1000);
+			datagramSocket.close();
+		} catch (Exception e) {
+			datagramSocket = null;
+			System.out.println("UDP Unicast Sender start fail");
+			e.printStackTrace();
+		}
+}
 
 }

@@ -26,6 +26,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import android.support.v4.app.FragmentActivity;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -35,6 +36,8 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationListener;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -43,6 +46,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
@@ -56,7 +60,9 @@ import android.widget.Toast;
 import com.esri.android.map.GraphicsLayer;
 import com.esri.android.map.LocationDisplayManager;
 import com.esri.android.map.MapOnTouchListener;
+import com.esri.android.map.MapOptions;
 import com.esri.android.map.MapView;
+import com.esri.android.map.MapOptions.MapType;
 import com.esri.android.map.ags.ArcGISFeatureLayer;
 import com.esri.android.map.ags.ArcGISLocalTiledLayer;
 import com.esri.android.map.ags.ArcGISTiledMapServiceLayer;
@@ -96,6 +102,20 @@ import com.pitt.cdm.arcgis.android.maps.R;
 
 
 public class LeaderEvacuationActivity extends FragmentActivity {
+	
+	  // The basemap switching menu items.
+	  MenuItem mTwitterMenuItem = null;
+	  MenuItem mShelterMenuItem = null;
+	  MenuItem mLeaderMenuItem = null;
+	  MenuItem mBarrierMenuItem = null;
+	  MenuItem mSenderMenuItem = null;
+
+	  // Create MapOptions for each type of basemap.
+	  final MapOptions mTopoBasemap = new MapOptions(MapType.TOPO);
+	  final MapOptions mStreetsBasemap = new MapOptions(MapType.STREETS);
+	  final MapOptions mGrayBasemap = new MapOptions(MapType.GRAY);
+	  final MapOptions mOceansBasemap = new MapOptions(MapType.OCEANS);
+
 	
   //string
   protected static final String TAG = "Evacuation";
@@ -349,10 +369,13 @@ public class LeaderEvacuationActivity extends FragmentActivity {
   Communication cc=new Communication();
   
   Properties prop1 = PropertiesUtil.getProperties();
-	
+  
+  ArcGISFeatureLayer mTempSheltersLayer1;
+  
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    
 
     // Initialize progress bar before setting content
     requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
@@ -432,6 +455,8 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 	//prepare and cache segment and shelter info from local json file
 	shelters=readsheltercoor(); 
 	roadsegments=readsegmentcoor(); 
+	
+
 	/*
 	 //1. polyline barriers
 	 mTemppolylinebarrierLayer = new ArcGISFeatureLayer(
@@ -442,10 +467,11 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 */
     
 	//2. shelter
-	mTempSheltersLayer = new ArcGISFeatureLayer(
-			//"http://concepcion.gspia.pitt.edu:6080/arcgis/rest/services/GISSERVER/ACFacilities/FeatureServer/0",
+	
+	mTempSheltersLayer = new ArcGISFeatureLayer(			
 			getResources().getString(R.string.arcgis_server_url)+"KelurahanFacilities/FeatureServer/34",
 			ArcGISFeatureLayer.MODE.ONDEMAND);
+	mTempSheltersLayer.setVisible(false);
 	map.addLayer(mTempSheltersLayer);
 			
 	/*
@@ -491,7 +517,6 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 	 //@show road barriers in key value store
     //showbarriers(0);
 			
- 
 		/**
 	 * On single clicking the directions label, start a ListActivity to show
 	 * the list of all directions for this route. Selecting one of those
@@ -966,10 +991,10 @@ public class LeaderEvacuationActivity extends FragmentActivity {
     //String piip=cc.getGateWay(getBaseContext());
 	    
 	//step 5: multicast by operate
-	StartButton = (Button) this.findViewById(R.id.buttonsend);
+	//StartButton = (Button) this.findViewById(R.id.buttonsend);
 	//StopButton = (Button) this.findViewById(R.id.buttonstop);
-	Label = (TextView) this.findViewById(R.id.sendinfo);		
-	StartButton.setOnClickListener(listener);
+	//Label = (TextView) this.findViewById(R.id.sendinfo);		
+	//StartButton.setOnClickListener(listener);
 	//StopButton.setOnClickListener(listener);
 	
 	//for WIFIDirect communication among smart phones
@@ -982,7 +1007,7 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 	Thread ListCastThread = new Thread(MCastListen);
 	InputData=new DataStruct();	 	
    	ListCastThread.start();
-   	Label.setText("");
+   //	Label.setText("");
    	
    	
    	//get pi  ip info   
@@ -1014,6 +1039,68 @@ public class LeaderEvacuationActivity extends FragmentActivity {
     
   }
 
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    // Inflate the menu; this adds items from the Menu XML to the action bar, if present.
+    getMenuInflater().inflate(R.menu.option_menu, menu);
+    
+    // Get the basemap switching menu items.
+ 
+    mShelterMenuItem = menu.getItem(0);
+    mTwitterMenuItem = menu.getItem(1);
+    mLeaderMenuItem = menu.getItem(2);
+    mBarrierMenuItem = menu.getItem(3);
+    mSenderMenuItem = menu.getItem(4);
+    
+    // Also set the topo basemap menu item to be checked, as this is the default.
+    mBarrierMenuItem.setChecked(true); 
+    
+    return true;
+  }
+  
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item) {
+    // Save the current extent of the map before changing the map.
+    mCurrentMapExtent = map.getExtent();
+    
+    // Handle menu item selection.
+    switch (item.getItemId()) {
+      case R.id.Shelter_onMap:
+       // map.setMapOptions(mStreetsBasemap);
+    		mTempSheltersLayer.setVisible(true);
+    		map.refreshDrawableState();
+    		 mGraphicsLayerEditing.removeAll();
+    		//map.addLayer(mTempSheltersLayer1);    		
+    		mShelterMenuItem.setChecked(true);
+        return true;
+      case R.id.Twitter_onMap:
+        //map.setMapOptions(mTopoBasemap);
+    	  mTempSheltersLayer.setVisible(false);
+    	  mGraphicsLayerEditing.removeAll();
+    	  showshelters();
+    	  map.refreshDrawableState();
+        mTwitterMenuItem.setChecked(true);
+        return true;
+      case R.id.Leader_onMap:
+        //map.setMapOptions(mGrayBasemap);
+        mLeaderMenuItem.setChecked(true);
+        return true;
+      case R.id.Barrier_onMap:
+       // map.setMapOptions(mOceansBasemap);
+    	  mGraphicsLayerEditing.removeAll();
+    	  showbarriers(0);
+        mBarrierMenuItem.setChecked(true);
+        return true;
+      case R.id.Path_send:
+          // map.setMapOptions(mOceansBasemap);
+           mSenderMenuItem.setChecked(true);
+           return true;
+      default:
+        return super.onOptionsItemSelected(item);
+    }
+  }
+
+  
   public void report(final long shelterid,  final String type, final Graphic gra){
 	  
 	  final Dialog dialog1=new Dialog(map.getContext(),R.style.cust_dialog);
@@ -1216,11 +1303,24 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 				//String IPaddr=null;
 				//String[] Segment;
 				try{
-					if (v == StartButton) {						
+					if (v == StartButton){						
 		                //Multicast notification to followers						
 						//pushedroutedetail = (String) prop1.get("defaultroute");				
 						//multicasttofollower(pushedroutedetail);
+					    //*******************
+					    //judge internet available
+					    if (isNetworkAvailable(LeaderEvacuationActivity.this))
+					    {
+					        Toast.makeText(getApplicationContext(), "on", Toast.LENGTH_LONG).show();
+					    }
+					    else
+					    {
+					        Toast.makeText(getApplicationContext(), "off", Toast.LENGTH_LONG).show();
+					    }
+					    //*******************
 						/*
+						 * 
+						 * 
 						start = true;
 						
 						StopButton.setEnabled(true);
@@ -1249,7 +1349,7 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 						start = false;
 						StartButton.setEnabled(true);
 						StopButton.setEnabled(false);
-						Label.setText(" ");
+						//Label.setText(" ");
 						MCastThread.stop();
 						//MCastThread.interrupt();
 						
@@ -1846,14 +1946,16 @@ public class LeaderEvacuationActivity extends FragmentActivity {
       String result;
       Graphic affectedgraphic=null;
 		try {                  
-			
-			result = cc.udpmulticastcommunicater("http://"+tip+":"+tport+"/ga/keyvaluestore?action=showallaffectedsegment&leaderid="+regionid+","+leaderid);
+			result = cc.socketservice("http://"+tip+":"+tport+"/ga/keyvaluestore?action=showallaffectedsegment&leaderid="+regionid+","+leaderid,tsocketaddress,tsocketport);
+			//result = cc.udpmulticastcommunicater("http://"+tip+":"+tport+"/ga/keyvaluestore?action=showallaffectedsegment&leaderid="+regionid+","+leaderid);
 			//1327:100.33693217061852,-0.8653466361882022,100.33693217061852,-0.8651093009464204;1155:100.34162787347653,-0.872974507181835,100.34162787347653,-0.8727954521969702  
 			if(result!=""){//
 				   
 				   String[] affectedsegments=result.split(";");
 				   	for(int j=0;j<affectedsegments.length;j++){
-				   		String[] coor=affectedsegments[j].split(":")[2].split(",");
+				   		String tempcoor0=affectedsegments[j].split(":")[1].replace("[", "");
+				   		String tempcoor1=tempcoor0.replace("]", "");
+				   		String[] coor=tempcoor1.split(",");
 				   		
 				   		Point affected0=(Point) GeometryEngine.project(new Point(Double.valueOf(coor[0]), Double.valueOf(coor[1])), egs, wm);
 				   		Point affected1=(Point) GeometryEngine.project(new Point(Double.valueOf(coor[2]), Double.valueOf(coor[3])), egs, wm);
@@ -1876,6 +1978,40 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 				      }
 
 		}	
+			
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+	  
+  }
+  
+private void showshelters(){
+	  
+      mGraphicsLayerEditing = new GraphicsLayer();
+      map.addLayer(mGraphicsLayerEditing);
+      mGraphicsLayerEditing.removeAll(); 
+	 
+      Graphic affectedgraphic=null;
+		try {
+			
+			for (shelter st : shelters) {													
+					double sx=st.x;
+					double sy=st.y;								
+					tsegment = (Point)GeometryEngine.project(sx,sy,egs);								
+					endpoint=(Point)GeometryEngine.project(tsegment, egs, wm);
+					
+					PictureMarkerSymbol affectedSymbol = new PictureMarkerSymbol(
+							map.getContext(), getResources().getDrawable(
+									R.drawable.shelters));					
+				    
+				    affectedgraphic = new Graphic(endpoint, affectedSymbol);
+				    
+				    mGraphicsLayerEditing.addGraphics(new Graphic[] { affectedgraphic });
+																										
+			}
+			
+		
 			
 		} catch (Exception e) {
 			
@@ -2158,7 +2294,7 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 							} 
 						catch (Exception e) {
 								mException = e;
-								mHandler.post(mUpdateResults);
+								//mHandler.post(mUpdateResults);
 							}
 											
 					mapoperationtype=0;	
@@ -2207,7 +2343,7 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 					} 
 			catch (Exception e) {
 						mException = e;
-						mHandler.post(mUpdateResults);
+						//mHandler.post(mUpdateResults);
 					}
 									
 			mapoperationtype=0;	
@@ -2433,4 +2569,44 @@ public class LeaderEvacuationActivity extends FragmentActivity {
 		 }
 		     }
 
+	     
+	     /**
+	      * check current network available
+	      * 
+	      * @param context
+	      * @return
+	      */
+	     
+	     public boolean isNetworkAvailable(Activity activity)
+	     {
+	         Context context = activity.getApplicationContext();
+	         // get phone connectivity manager object, include wi-fi,net
+	         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+	         
+	         if (connectivityManager == null)
+	         {
+	             return false;
+	         }
+	         else
+	         {
+	             // get NetworkInfo object
+	             NetworkInfo[] networkInfo = connectivityManager.getAllNetworkInfo();
+	             
+	             if (networkInfo != null && networkInfo.length > 0)
+	             {
+	                 for (int i = 0; i < networkInfo.length; i++)
+	                 {
+	                     System.out.println(i + "===Status===" + networkInfo[i].getState());
+	                     System.out.println(i + "===type===" + networkInfo[i].getTypeName());
+	                     // judge current network status on/off
+	                     if (networkInfo[i].getState() == NetworkInfo.State.CONNECTED)
+	                     {
+	                         return true;
+	                     }
+	                 }
+	             }
+	         }
+	         return false;
+	     }
+	 
 }
